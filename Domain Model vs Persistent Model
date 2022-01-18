@@ -10,6 +10,7 @@ published: true
 ---
 
 Some links:
+- https://khorikov.org/posts/2020-12-15-domain-model-purity-and-orms-2/
 - http://codebetter.com/gregyoung/2010/02/18/using-an-orm-is-like-kissing-your-sister/
 - https://solveme.wordpress.com/2009/11/11/ddd-without-any-orm-tool-is-it-possible/
 - https://enterprisecraftsmanship.com/posts/having-the-domain-model-separate-from-the-persistence-model
