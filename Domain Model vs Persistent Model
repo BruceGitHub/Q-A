@@ -1,4 +1,16 @@
+---
+layout: post
+title: "Domain Model vs Persistent Model"
+date: 2022-01-18
+tags:
+ - orm
+ - persisten model 
+ - domain model 
+published: true
+---
+
 Some links:
+- http://codebetter.com/gregyoung/2010/02/18/using-an-orm-is-like-kissing-your-sister/
 - https://solveme.wordpress.com/2009/11/11/ddd-without-any-orm-tool-is-it-possible/
 - https://enterprisecraftsmanship.com/posts/having-the-domain-model-separate-from-the-persistence-model
 - https://ocramius.github.io/doctrine-best-practices/#/
