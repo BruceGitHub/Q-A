@@ -1,4 +1,5 @@
-The difference:
+Some links:
+- https://solveme.wordpress.com/2009/11/11/ddd-without-any-orm-tool-is-it-possible/
 - https://enterprisecraftsmanship.com/posts/having-the-domain-model-separate-from-the-persistence-model
 - https://ocramius.github.io/doctrine-best-practices/#/
 - https://www.mehdi-khalili.com/orm-anti-patterns-series
