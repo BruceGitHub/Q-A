@@ -1,0 +1,5 @@
+The difference:
+- https://enterprisecraftsmanship.com/posts/having-the-domain-model-separate-from-the-persistence-model
+- https://ocramius.github.io/doctrine-best-practices/#/
+- https://www.mehdi-khalili.com/orm-anti-patterns-series
+  - https://www.mehdi-khalili.com/orm-anti-patterns-part-4-persistence-domain-model
