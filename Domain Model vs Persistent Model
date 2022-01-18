@@ -3,9 +3,9 @@ layout: post
 title: "Domain Model vs Persistent Model"
 date: 2022-01-18
 tags:
- - orm
- - persistent model 
- - domain model 
+ - [orm]
+ - [persistent model]
+ - [domain model]
 published: true
 ---
 
