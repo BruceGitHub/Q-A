@@ -1,0 +1,19 @@
+---
+layout: post
+title: "How validate uniques users ?"
+date: 2022-01-18
+tags:
+ - [validation]
+ - [constraint]
+ - [uniquess]
+ - [eventsourcing]
+published: true
+---
+
+Some links:
+- https://axoniq.io/blog-overview/set-based-validation
+- https://danielwhittaker.me/2017/10/09/handle-set-based-consistency-validation-cqrs/
+- https://williamverdolini.github.io/2014/08/16/cqrses-set-validation/
+- https://web.archive.org/web/20210227224341/http://codebetter.com/gregyoung/2010/08/12/eventual-consistency-and-set-validation/
+
+My answer:
