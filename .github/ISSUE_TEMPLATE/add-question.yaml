@@ -1,6 +1,6 @@
 name: Add question
 description: What?
-title: "Title of the question"
+title: " "
 labels: ["question"]
 assignees:
   - BruceGitHub
@@ -14,17 +14,7 @@ body:
     attributes:
       label: Questions
       description: More detail question 
-      placeholder: ...
-      value: "..."
+      placeholder: 
+      value: " "
     validations:
       required: true
-  - type: dropdown
-    id: browsers
-    attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
