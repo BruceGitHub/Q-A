@@ -17,3 +17,7 @@ Some links:
 - https://ocramius.github.io/doctrine-best-practices/#/
 - https://www.mehdi-khalili.com/orm-anti-patterns-series
   - https://www.mehdi-khalili.com/orm-anti-patterns-part-4-persistence-domain-model
+
+My answer:
+- The choice is always a trade-off, but if we work in a team the trade-off isn't only for the tech stack but also for the team knowledge
+- In some cases, we cannot use orm when the domain is simple
