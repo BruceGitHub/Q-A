@@ -1,6 +1,6 @@
 name: Add question
 description: What?
-title: ""
+title: "Title of the question"
 labels: ["question"]
 assignees:
   - BruceGitHub
