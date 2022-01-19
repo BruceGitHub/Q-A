@@ -7,43 +7,32 @@ assignees: ''
 
 ---
 
----
-name: 🐞 Bug
-about: File a bug/issue
-title: '[BUG] <title>'
-labels: Bug, Needs Triage
-assignees: ''
-
----
-
-<!--
-Note: Please search to see if an issue already exists for the bug you encountered.
--->
-
-### Current Behavior:
-<!-- A concise description of what you're experiencing. -->
-
-### Expected Behavior:
-<!-- A concise description of what you expected to happen. -->
-
-### Steps To Reproduce:
-<!--
-Example: steps to reproduce the behavior:
-1. In this environment...
-2. With this config...
-3. Run '...'
-4. See error...
--->
-
-### Environment:
-<!--
-Example:
-- OS: Ubuntu 20.04
-- Node: 13.14.0
-- npm: 7.6.3
--->
-
-### Anything else:
-<!--
-Links? References? Anything that will give us more context about the issue that you are encountering!
--->
+- type: textarea
+  attributes:
+    label: Operating System
+    description: What operating system are you using?
+    placeholder: Example: macOS Big Sur
+    value: operating system
+  validations:
+    required: true
+- type: dropdown
+  attributes:
+    label: Version
+    description: What version of our software are you running?
+    multiple: false
+    options:
+      - label: 1.0.2 (Default)
+      - label: 1.0.3 (Edge)
+  validations:
+    required: true
+- type: checkboxes
+  attributes:
+    label: Code of Conduct
+    description: The Code of Conduct helps create a safe space for everyone. We require
+      that everyone agrees to it.
+    options:
+      - label: I agree to follow this project's [Code of Conduct](link/to/coc)
+        required: true
+- type: markdown
+  attributes:
+    value: "Thanks for completing our form!"
