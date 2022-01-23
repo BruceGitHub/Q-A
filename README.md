@@ -1,2 +1,2 @@
 # Q-A
-Collections of questions and answer for architecture, programming, design 
+Collections of note and links about architecture, programming, design 
