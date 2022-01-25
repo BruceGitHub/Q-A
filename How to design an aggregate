@@ -1,0 +1,22 @@
+---
+layout: post
+title: "How to design an aggregate "
+date: 2022-01-25
+tags:
+ - [ddd]
+ - [architecture]
+ - [domain driven design] 
+ - [aggregate] 
+ - [domain model]
+published: true
+---
+
+Some links:
+
+- All our aggregates are wrong - Mauro Servienti - https://www.youtube.com/watch?v=hev65ozmYPIe
+Design around the behaviour. 
+Domain expert trap, the domain expert gives some indications upon on its point of view. This isn't the direct "artifact" that go in the code solution
+Repo: https://github.com/mauroservienti/all-our-aggregates-are-wrong-demos#ndc-copenhagen
+
+
+My answer:
