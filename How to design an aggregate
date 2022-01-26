@@ -23,7 +23,7 @@ Repo: https://github.com/mauroservienti/all-our-aggregates-are-wrong-demos#ndc-c
 Design around the behaviour. 
 Domain expert trap, the domain expert gives some indications upon on its point of view. This isn't the direct "artifact" that go in the code solution
 
-- 2011: Effective Aggregate Design - Vaughn Vernon 
+- 2011- Effective Aggregate Design - Vaughn Vernon 
 https://www.dddcommunity.org/wp-content/uploads/files/pdf_articles/Vernon_2011_1.pdf
 https://www.dddcommunity.org/wp-content/uploads/files/pdf_articles/Vernon_2011_2.pdf
 https://www.dddcommunity.org/wp-content/uploads/files/pdf_articles/Vernon_2011_3.pdf
