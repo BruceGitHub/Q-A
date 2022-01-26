@@ -15,22 +15,23 @@ published: true
 
 Some links:
 
-- 2019:  All our aggregates are wrong - Mauro Servienti - https://www.youtube.com/watch?v=hev65ozmYPIe
+- 2021 - Awkward Aggregate Root relationships and how to rethink them - Nick Chamberlain - https://buildplease.com/pages/on-paper/
+How to model an Aggregate Root without computer
+
+- 2019 - All our aggregates are wrong - Mauro Servienti - https://www.youtube.com/watch?v=hev65ozmYPIe
+Repo: https://github.com/mauroservienti/all-our-aggregates-are-wrong-demos#ndc-copenhagen
 Design around the behaviour. 
 Domain expert trap, the domain expert gives some indications upon on its point of view. This isn't the direct "artifact" that go in the code solution
-Repo: https://github.com/mauroservienti/all-our-aggregates-are-wrong-demos#ndc-copenhagen
 
 - 2011: Effective Aggregate Design - Vaughn Vernon 
 https://www.dddcommunity.org/wp-content/uploads/files/pdf_articles/Vernon_2011_1.pdf
 https://www.dddcommunity.org/wp-content/uploads/files/pdf_articles/Vernon_2011_2.pdf
 https://www.dddcommunity.org/wp-content/uploads/files/pdf_articles/Vernon_2011_3.pdf
 
-- 2017 - Nick Chamberlain - How do We Write Factories for Event Sourced Aggregates?
-https://buildplease.com/pages/constructing-aggregates/
+- 2017 - How do We Write Factories for Event Sourced Aggregates? - Nick Chamberlain - https://buildplease.com/pages/constructing-aggregates
 Suggests to use a factory to create an AggregateRoot, in particular, suggest to use `ubiquitous language` not `create` for example but `hire` `customer`
 
-- 2009 - Don’t Create Aggregate Roots -  	Udi Dahan
-https://udidahan.com/2009/06/29/dont-create-aggregate-roots/
+- 2009 - Don’t Create Aggregate Roots - Udi Dahan - https://udidahan.com/2009/06/29/dont-create-aggregate-roots/
 Draft: "Aggregate root isn't entity is a use case"
 
 
