@@ -10,10 +10,15 @@ tags:
  - [domain model]
  - [ubiquitus language]
  - [event sourcing]
+ - [repository]
 published: true
 ---
 
 Some links:
+
+- 2021 - Derek Comartin - https://codeopinion.com/aggregate-root-design-behavior-data/
+Separate data from behavior, so two-class data, one class only with data  for the ORM one form Method. 
+Without ORM obviously, we need to implement the dirty check pattern a manner is with events
 
 - 2021 - Awkward Aggregate Root relationships and how to rethink them - Nick Chamberlain - https://buildplease.com/pages/on-paper/
 How to model an Aggregate Root without computer
