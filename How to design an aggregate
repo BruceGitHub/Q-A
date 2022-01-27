@@ -14,7 +14,7 @@ tags:
 published: true
 ---
 
-Some links:
+# Some links:
 
 - 2021 - Derek Comartin - https://codeopinion.com/aggregate-root-design-behavior-data/
 Separate data from behavior, so two-class data, one class only with data  for the ORM one form Method. 
@@ -42,5 +42,8 @@ Suggests to use a factory to create an AggregateRoot, in particular, suggest to 
 - 2009 - Don’t Create Aggregate Roots - Udi Dahan - https://udidahan.com/2009/06/29/dont-create-aggregate-roots/
 Draft: "Aggregate root isn't entity is a use case"
 
+
+# What means transactional boundary 
+wip 
 
 My answer:
