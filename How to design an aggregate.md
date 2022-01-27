@@ -46,4 +46,13 @@ Draft: "Aggregate root isn't entity is a use case"
 # What means transactional boundary 
 wip 
 
-My answer:
+# My answer:
+First, the transaction boundary rule for the aggregate isn't a rule is 
+good guidelines, suggestions.
+The origin of this is 
+- to void to load more data from the DB, 
+- to avoid the problem of the lock from the persistent layer.
+- to keep the concept simple and testable 
+
+In fact, in past was common practice to persist a huge quantity of data, into the persistent layer, 
+so more locks and more failed transactions, when workload increased
