@@ -31,6 +31,9 @@ https://www.dddcommunity.org/wp-content/uploads/files/pdf_articles/Vernon_2011_3
 - 2017 - How do We Write Factories for Event Sourced Aggregates? - Nick Chamberlain - https://buildplease.com/pages/constructing-aggregates
 Suggests to use a factory to create an AggregateRoot, in particular, suggest to use `ubiquitous language` not `create` for example but `hire` `customer`
 
+- 2013 - Martin Fowler - https://martinfowler.com/bliki/DDD_Aggregate.html
+>Any references from outside the aggregate should only go to the aggregate root. The root can thus ensure the integrity of the aggregate as a whole.
+
 - 2009 - Don’t Create Aggregate Roots - Udi Dahan - https://udidahan.com/2009/06/29/dont-create-aggregate-roots/
 Draft: "Aggregate root isn't entity is a use case"
 
