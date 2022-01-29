@@ -11,10 +11,19 @@ tags:
  - [ubiquitus language]
  - [event sourcing]
  - [repository]
+ - [consistency
+ - [invariant]
 published: true
 ---
 
 # Some links:
+
+- 2021 - Songhua(Gang ZHANG) - https://www.alibabacloud.com/blog/an-in-depth-understanding-of-aggregation-in-domain-driven-design_598034 
+Main topics:
+  - Consistency of the -lifecycle
+  - Consistency of the problem domain
+  - Consistency of the scenario frequency
+  - As few elements as possible within the aggregation
 
 - 2021 - Derek Comartin - https://codeopinion.com/aggregate-root-design-behavior-data/
 Separate data from behavior, so two-class data, one class only with data  for the ORM one form Method. 
