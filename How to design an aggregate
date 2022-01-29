@@ -18,26 +18,35 @@ published: true
 
 # Some links:
 
-- 2021 - An In-Depth Understanding of Aggregation in Domain-Driven Design - Songhua - https://www.alibabacloud.com/blog/an-in-depth-understanding-of-aggregation-in-domain-driven-design_598034 
+- 2021 - https://www.alibabacloud.com/blog/an-in-depth-understanding-of-aggregation-in-domain-driven-design_598034 - An In-Depth Understanding of Aggregation in Domain-Driven Design 
+- Songhua - 
+
 Main topics:
   - Consistency of the -lifecycle
   - Consistency of the problem domain
   - Consistency of the scenario frequency
   - As few elements as possible within the aggregation
 
-- 2021 - Derek Comartin - https://codeopinion.com/aggregate-root-design-behavior-data/
+- 2021 - https://codeopinion.com/aggregate-root-design-behavior-data/
+- Derek Comartin - 
+
 Separate data from behavior, so two-class data, one class only with data  for the ORM one form Method. 
 Without ORM obviously, we need to implement the dirty check pattern a manner is with events
 
-- 2021 - Awkward Aggregate Root relationships and how to rethink them - Nick Chamberlain - https://buildplease.com/pages/on-paper/
+- 2021 - https://buildplease.com/pages/on-paper/ - Awkward Aggregate Root relationships and how to rethink them 
+- Nick Chamberlain - 
+
 How to model an Aggregate Root without computer
 
-- 2019 - All our aggregates are wrong - Mauro Servienti - https://www.youtube.com/watch?v=hev65ozmYPIe
+- 2019 - https://www.youtube.com/watch?v=hev65ozmYPIe - All our aggregates are wrong 
+- Mauro Servienti - 
+
 Repo: https://github.com/mauroservienti/all-our-aggregates-are-wrong-demos#ndc-copenhagen
 Design around the behaviour. 
 Domain expert trap, the domain expert gives some indications upon on its point of view. This isn't the direct "artifact" that go in the code solution
 
-- 2018 - How to Use Aggregates for Tactical Design - Vaughn Vernon - https://www.youtube.com/watch?v=Xf_aLAK1RfE
+- 2018 - https://www.youtube.com/watch?v=Xf_aLAK1RfE - How to Use Aggregates for Tactical Design 
+- Vaughn Vernon - 
 1:48 | 5.1 Why Used
 5:05 | 5.2 Aggregate Rules of Thumb
 17:00 | 5.3 Modeling Aggregates
@@ -45,19 +54,26 @@ Domain expert trap, the domain expert gives some indications upon on its point o
 28:53 | 5.5 Right-Sizing Aggregates
 34:14 | 5.6 Testable Units
 
-- 2011 - Effective Aggregate Design - Vaughn Vernon
+- 2011 - Effective Aggregate Design 
+- Vaughn Vernon
 https://www.dddcommunity.org/wp-content/uploads/files/pdf_articles/Vernon_2011_1.pdf
 https://www.dddcommunity.org/wp-content/uploads/files/pdf_articles/Vernon_2011_2.pdf
 https://www.dddcommunity.org/wp-content/uploads/files/pdf_articles/Vernon_2011_3.pdf
 
-- 2017 - How do We Write Factories for Event Sourced Aggregates? - Nick Chamberlain - https://buildplease.com/pages/constructing-aggregates
+- 2017 - https://buildplease.com/pages/constructing-aggregates - How do We Write Factories for Event Sourced Aggregates? 
+- Nick Chamberlain - 
+
 Suggests to use a factory to create an AggregateRoot, in particular, suggest to use `ubiquitous language` not `create` for example but `hire` `customer`
 
-- 2013 - Martin Fowler - https://martinfowler.com/bliki/DDD_Aggregate.html
+- 2013 - https://martinfowler.com/bliki/DDD_Aggregate.html - 
+- Martin Fowler - https://martinfowler.com/bliki/DDD_Aggregate.html
+
 >Any references from outside the aggregate should only go to the aggregate root. The root can thus ensure the integrity of the aggregate as a whole.
 
-- 2009 - Don’t Create Aggregate Roots - Udi Dahan - https://udidahan.com/2009/06/29/dont-create-aggregate-roots/
-Draft: "Aggregate root isn't entity is a use case"
+- 2009 - https://udidahan.com/2009/06/29/dont-create-aggregate-roots/ - Don’t Create Aggregate Roots -
+- Udi Dahan - 
+Main topic: 
+"Aggregate root isn't entity is a use case"
 
 
 # What means transactional boundary 
