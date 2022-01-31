@@ -57,7 +57,14 @@ Domain expert trap, the domain expert gives some indications upon on its point o
 - 2011 - Effective Aggregate Design 
 - Vaughn Vernon
 https://www.dddcommunity.org/wp-content/uploads/files/pdf_articles/Vernon_2011_1.pdf
+>Don't Trust Every Use Case
+>Assuming your aggregate boundaries are aligned with real business constraints, then it's going to cause problems business constraints...
+
 https://www.dddcommunity.org/wp-content/uploads/files/pdf_articles/Vernon_2011_2.pdf
+>Rule: Reference Other Aggregates By Identity
+>Rule: Use Eventual Consistency Outside the Boundary
+
+
 https://www.dddcommunity.org/wp-content/uploads/files/pdf_articles/Vernon_2011_3.pdf
 
 - 2017 - https://buildplease.com/pages/constructing-aggregates - How do We Write Factories for Event Sourced Aggregates? 
