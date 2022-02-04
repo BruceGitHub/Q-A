@@ -16,3 +16,7 @@
 
 # Path Helland
 - https://pathelland.substack.com/
+
+
+# Udi Dahan
+- https://udidahan.com/
