@@ -1,17 +1,18 @@
-Alberto Brandolini 
+# Alberto Brandolini 
 - http://ziobrando.blogspot.com
 - https://stackoverflow.com/users/240328/ziobrando
 
-Andrea Saltarello
+# Andrea Saltarello
 -
 
-Francesco Cirillo
+# Francesco Cirillo
 -
 
-Mauro Servienti
+# Mauro Servienti
 - 
 
-Matteo Vaccari
+# Matteo Vaccari
 -
 
-
+# Path Helland
+- https://pathelland.substack.com/
