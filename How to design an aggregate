@@ -49,6 +49,10 @@ How to model an Aggregate Root without computer
 14:24 | Aggregate if a unit of distribution
 14:30 | How to make the aggregate consistent across context/aggregate ? 
 15:30 | Static models missing something (A Time) 
+25:00 | From static to Process model
+26:45 | Finite state machine vs Finite state transducer
+33:40 | When use Eventual Consistency and when Not
+37:00 | Windows of Eventual Consistency (Es: OAuth Token)
 
 
 - 2019 - https://www.youtube.com/watch?v=hev65ozmYPIe - All our aggregates are wrong 
