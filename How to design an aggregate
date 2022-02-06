@@ -13,6 +13,7 @@ tags:
  - [repository]
  - [consistency]
  - [invariant]
+ - [context]
 published: true
 ---
 
@@ -37,6 +38,18 @@ Without ORM obviously, we need to implement the dirty check pattern a manner is 
 - Nick Chamberlain - 
 
 How to model an Aggregate Root without computer
+
+- 2019 - https://www.youtube.com/watch?v=7h3DqZmvF9A - What is an aggregate with Thomas Ploch
+- Virtual Domain-Driven Design -
+3:32 | q: what is an aggregate
+7:13 | why do we need aggregrate in the first place
+9:02 | definition of Aggregate
+9:40 | boudaries are artificial, aggregate roots are real
+10:32 | Invariant are driven by Domain
+14:24 | Aggregate if a unit of distribution
+14:30 | How to make the aggregate consistent across context/aggregate ? 
+15:30 | Static models missing something (A Time) 
+
 
 - 2019 - https://www.youtube.com/watch?v=hev65ozmYPIe - All our aggregates are wrong 
 - Mauro Servienti - 
