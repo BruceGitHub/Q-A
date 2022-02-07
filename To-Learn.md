@@ -11,5 +11,6 @@ Some links:
   - Jill Nicola, M. M. (2002ll). Streamlined Object Modelling. Prentice H. -p.23  
   - Impedance Mismatch -> http://www.agiledata.org/essays/impedanceMismatch.html pag.36
   - Event Storage as a Queue pag.46
+  - Distributed Data for Microservices — Event Sourcing vs. Change Data Capture - https://debezium.io/blog/2020/02/10/event-sourcing-vs-cdc/
 
 My answer:
