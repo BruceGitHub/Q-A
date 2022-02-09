@@ -7,7 +7,7 @@ tags:
 published: true
 ---
 
-Some centences:
+Some sentences:
 - 2020/02/06 - ES / DDD 
   - what you see is what you write"
   - For a lot of use cases anomalies should be "detectable" instead of "preventable". Embracing that idea leads to an easier design experience when dealing with more than one entity (in Helland speak).
