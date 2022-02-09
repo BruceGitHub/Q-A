@@ -6,6 +6,12 @@ tags:
  - [lean]
 published: true
 ---
+
+Some centences:
+- 2020/02/06 - ES / DDD 
+  - what you see is what you write"
+  - For a lot of use cases anomalies should be "detectable" instead of "preventable". Embracing that idea leads to an easier design experience when dealing with more than one entity (in Helland speak).
+
 Some links:
 - 2020/02/06 - https://cqrs.files.wordpress.com/2010/11/cqrs_documents.pdf 
   - Jill Nicola, M. M. (2002ll). Streamlined Object Modelling. Prentice H. -p.23  
