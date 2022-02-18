@@ -13,3 +13,6 @@ published: true
 - consistency of scenario frequency (https://www.alibabacloud.com/blog/an-in-depth-understanding-of-aggregation-in-domain-driven-design_598034)
 - EVENT SOURCING is a storage design pattern
 - CQRS  is an application/architecture pattern focused around how to pipeline your code
+
+# EVENTSOURCING 
+- Actor model 
