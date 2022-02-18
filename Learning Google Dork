@@ -11,3 +11,5 @@ published: true
 - Aggregate root isn't entity is a use case - https://udidahan.com/2009/06/29/dont-create-aggregate-roots/
 - for the partition of aggregation (https://www.alibabacloud.com/blog/an-in-depth-understanding-of-aggregation-in-domain-driven-design_598034)
 - consistency of scenario frequency (https://www.alibabacloud.com/blog/an-in-depth-understanding-of-aggregation-in-domain-driven-design_598034)
+- EVENT SOURCING is a storage design pattern
+- CQRS  is an application/architecture pattern focused around how to pipeline your code
