@@ -19,6 +19,11 @@ published: true
 
 # Some links:
 
+- 2021 - https://www.oreilly.com/library/view/learning-domain-driven-design/9781098100124/ - Learning Domain-Driven Design -
+- Vlad Knhononov - 
+
+Page 89: All information than can be eventually consistent should reside outside of the aggregate boundary;
+
 - 2021 - https://www.alibabacloud.com/blog/an-in-depth-understanding-of-aggregation-in-domain-driven-design_598034 - An In-Depth Understanding of Aggregation in Domain-Driven Design 
 - Songhua - 
 
