@@ -23,6 +23,7 @@ published: true
 - Vlad Knhononov - 
 
 Page 89: All information than can be eventually consistent should reside outside of the aggregate boundary;
+Page 227: An aggregates is an indivisible business funcionality unit that encapsulates the complexities of its internal business rules, invariant, and logic
 
 - 2021 - https://www.alibabacloud.com/blog/an-in-depth-understanding-of-aggregation-in-domain-driven-design_598034 - An In-Depth Understanding of Aggregation in Domain-Driven Design 
 - Songhua - 
