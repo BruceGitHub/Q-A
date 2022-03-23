@@ -1,11 +1,14 @@
 ---
 layout: post
 title: "Learning path"
-date: 2022-01-29
+date: 2022-03-23
 tags:
  - [learning path]
 published: true
 ---
+
+# MICROSERVICES
+- Chassis Pattern - https://dzone.com/articles/ms-chassis-pattern
 
 # DDD
 - Context Map - "Design By Protection"
