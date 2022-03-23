@@ -9,6 +9,7 @@ published: true
 
 # MICROSERVICES
 - Chassis Pattern - https://dzone.com/articles/ms-chassis-pattern
+- Choreography vs Orchestration - https://solace.com/blog/microservices-choreography-vs-orchestration/
 
 # DDD
 - Context Map - "Design By Protection"
