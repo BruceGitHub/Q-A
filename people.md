@@ -20,3 +20,8 @@
 
 # Udi Dahan
 - https://udidahan.com/
+
+
+# Peter Coad
+
+# Edward Yourdon
