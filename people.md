@@ -5,6 +5,8 @@
 # Andrea Saltarello
 -
 
+# Edward Yourdon
+
 # Francesco Cirillo
 -
 
@@ -18,10 +20,9 @@
 - https://pathelland.substack.com/
 
 
+# Peter Coad
+
+
 # Udi Dahan
 - https://udidahan.com/
 
-
-# Peter Coad
-
-# Edward Yourdon
