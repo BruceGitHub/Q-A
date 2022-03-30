@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Constructor free of code"
-date: 2022-03-13
+date: 2022-03-30
 tags:
  - [ddd]
  - [architecture]
@@ -15,7 +15,9 @@ published: true
 
 # Some links:
 
-WIP 
+WIP Study
+- https://localheinz.com/blog/2022/03/26/naming-constructors
+- https://verraes.net/2014/06/named-constructors-in-php/
 - https://blog.millermedeiros.com/constructors-should-not-cause-side-effects/
 - Meyer's OOSC. I
 - If a side effect is only concrete — does not affect the abstract state — it is harmless. In the object-as-machine metaphor, functions producing concrete-only side effects correspond to query buttons that may produce an internal state change having absolutely no effect on the answers given by any query button. For example the machine might save energy by automatically switching off some internal circuits if nobody presses a button for some time, and turning them on again whenever someone presses any button, queries included. Such an internal state change is unnoticeable from the outside and hence legitimate.
