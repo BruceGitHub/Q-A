@@ -10,6 +10,10 @@ published: true
 # OOP
 - Temporal coupling
 - Design Application with events
+- horizontal - decomposition
+- vertical - decomposition
+- DoR - decomposition of responsibility
+
 
 # MICROSERVICES
 - Chassis Pattern - https://dzone.com/articles/ms-chassis-pattern
