@@ -8,6 +8,10 @@ published: true
 ---
 
 # OOP
+- Tell Dont Ask & LoD
+- Indirection, also called dereferencing (https://en.wikipedia.org/wiki/Indirection)
+- Temporal coupling
+- Technical leak related to temporal coupling
 - Leaky Abstractions
 - Temporal coupling
 - Design Application with events
