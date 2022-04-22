@@ -8,6 +8,7 @@ published: true
 ---
 
 # OOP
+- Leaky Abstractions
 - Temporal coupling
 - Design Application with events
 - horizontal - decomposition
