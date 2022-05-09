@@ -10,9 +10,12 @@ published: true
 # REVIEW
 - https://medium.com/geekculture/ideas-on-performing-high-value-code-reviews-385efb94d508
 
+
 # OOP
 - Tell Dont Ask & LoD
-- Indirection, also called dereferencing (https://en.wikipedia.org/wiki/Indirection)
+- Indirection, also called dereferencing 
+  -- (https://en.wikipedia.org/wiki/Indirection)
+  -- https://betterprogramming.pub/avoiding-premature-software-abstractions-8ba2e990930a
 - Temporal coupling
 - Technical leak related to temporal coupling
 - Leaky Abstractions
