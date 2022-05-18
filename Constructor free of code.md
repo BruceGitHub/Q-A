@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Constructor free of code"
-date: 2022-03-30
+date: 2022-05-18
 tags:
  - [ddd]
  - [architecture]
@@ -16,6 +16,7 @@ published: true
 # Some links:
 
 WIP Study
+- https://thephp.cc/articles/how-do-you-name-constructors
 - https://localheinz.com/blog/2022/03/26/naming-constructors
 - https://verraes.net/2014/06/named-constructors-in-php/
 - https://blog.millermedeiros.com/constructors-should-not-cause-side-effects/
@@ -31,3 +32,5 @@ WIP Study
 
 
 # My answer:
+I think that "named constructors" are in some cases useful. 
+Because it allows it to use the "domain language" or "context language", but the use must be evaluated with attention in fact "named constructors" are done with the "static" keyword
