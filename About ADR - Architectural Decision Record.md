@@ -12,6 +12,8 @@ published: true
 
 # Some links:
 
+- github - https://github.com/adr
+
 - 2021 - https://friendgineers.rosenshein.org/posts/2021-11-15
 - Leon Rosenshein - 
 
@@ -27,7 +29,8 @@ published: true
 - 2019 - https://github.com/davidaayers/adr-talk
 - David Ayers -
 
-- github - https://github.com/adr
+- 2009 - https://www.computer.org/csdl/magazine/so/2009/02/04786950/13rRUytnsUZ
+- IEEE Software - 
 
 # My answer:
 
