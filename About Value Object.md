@@ -41,6 +41,9 @@ published: true
 - 2016 - https://enterprisecraftsmanship.com/posts/representing-collection-as-value-object/
 - Vladimir Khorikov -
 
+- 2016 - https://enterprisecraftsmanship.com/posts/entity-vs-value-object-the-ultimate-list-of-differences/
+- Vladimir Khorikov -
+
 - 2015 - http://thepaulrayner.com/persisting-value-objects/
 - Paul Rayner's - 
 
@@ -68,6 +71,9 @@ published: true
 
 - 2009 - http://dddsample.sourceforge.net/characterization.html#Value_Objects
 - DDD Community -
+
+- 2008 - https://web.archive.org/web/20131210200410/http://codebetter.com/gregyoung/2008/04/15/dddd-4-messages-are-value-objects/
+- Greg Young -
 
 - 2005 - http://fit.c2.com/wiki.cgi?WholeValue
 - Ward Cunningham -
