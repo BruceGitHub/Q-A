@@ -59,6 +59,9 @@ published: true
 - 2014 - http://wiki.c2.com/?ValueObject
 - C2 - 
 
+- 2014 - https://domaincentric.net/blog/validating-value-objects
+- Kacper Gunia - 
+
 - 2013- Implementing Domain-Driven Design - Vaughn Vernon
 - Vaughn Vernon - 
 - Measures, Quantifies or Describes 
