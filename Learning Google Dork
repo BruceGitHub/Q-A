@@ -17,6 +17,7 @@ published: true
 - https://www.youtube.com/watch?v=k_ItB5btREU
 
 # OOP
+- Friends keyword as Antipatterns of oop
 - Tell Dont Ask & LoD
 - Indirection, also called dereferencing 
   -- (https://en.wikipedia.org/wiki/Indirection)
@@ -32,6 +33,7 @@ published: true
 - TFP vs TDD
 
 # MICROSERVICES
+- Advisory lock Pattern
 - Chassis Pattern - https://dzone.com/articles/ms-chassis-pattern
 - Choreography vs Orchestration - https://solace.com/blog/microservices-choreography-vs-orchestration/
 
