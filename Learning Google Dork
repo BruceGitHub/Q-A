@@ -17,6 +17,9 @@ published: true
 - https://www.youtube.com/watch?v=k_ItB5btREU
 
 # OOP
+- Context Oriented Programming
+- Actor model 
+- Companion Object 
 - Friends keyword as Antipatterns of oop
 - Tell Dont Ask & LoD
 - Indirection, also called dereferencing 
