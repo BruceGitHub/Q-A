@@ -48,6 +48,9 @@ published: true
 - EVENT SOURCING is a storage design pattern
 - CQRS  is an application/architecture pattern focused around how to pipeline your code
 
+# EVENTSTORMING
+- Pivot Events
+
 # EVENTSOURCING 
 - Actor model 
 
