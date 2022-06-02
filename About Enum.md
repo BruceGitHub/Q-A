@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Enum"
-date: 2022-04-22
+date: 2022-07-02
 tags:
  - [oop]
  - [enum]
@@ -16,3 +16,5 @@ tags:
 
 # My answer:
 
+Euristc: 
+In some cases with Return value as 
