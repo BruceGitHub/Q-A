@@ -17,4 +17,5 @@ tags:
 # My answer:
 
 Euristc: 
-In some cases with Return value as 
+In some cases with Return value as Marked Interface, or Object empty without behavior and with a finite number of type
+replace union types with enum 
