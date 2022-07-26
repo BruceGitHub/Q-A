@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How validate uniques users ?"
+title: "How validate uniquess users ?"
 date: 2022-01-19
 tags:
  - [validation]
@@ -11,6 +11,7 @@ published: true
 ---
 
 Some links:
+- https://event-driven.io/en/uniqueness-in-event-sourcing/
 - https://axoniq.io/blog-overview/set-based-validation
 - https://danielwhittaker.me/2017/10/09/handle-set-based-consistency-validation-cqrs/
 - https://williamverdolini.github.io/2014/08/16/cqrses-set-validation/
