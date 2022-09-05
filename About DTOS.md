@@ -13,6 +13,9 @@ published: true
 
 # Some links:
 
+- 2021 - https://khalilstemmler.com/articles/enterprise-typescript-nodejs/use-dtos-to-enforce-a-layer-of-indirection/
+- 𝙆𝙃𝘼𝙇𝙄𝙇 𝙎𝙏𝙀𝙈𝙈𝙇𝙀𝙍 -
+
 - 2020 - https://blog.scottlogic.com/2020/01/03/rethinking-the-java-dto.html
 - Steven Waterman -
 
