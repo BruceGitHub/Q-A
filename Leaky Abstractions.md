@@ -15,6 +15,10 @@ published: true
 - 2022 - https://devopedia.org/leaky-abstractions
 - devopedia.org - 
 
+- 2017 - http://objectcode101.com/leaky-abstractions-and-how-to-deal-with-them/
+- MAX CERVANTES - 
+# Interesting poit when write of model to migrate legact cdode 
+
 - 2017 - https://javadevguy.wordpress.com/2017/11/02/transcending-the-limitations-of-the-human-mind/
 - robertbraeutigam - 
 
