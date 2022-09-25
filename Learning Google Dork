@@ -10,6 +10,10 @@ published: true
 # REVIEW
 - https://medium.com/geekculture/ideas-on-performing-high-value-code-reviews-385efb94d508
 
+# ARCHITECTURE-GENERAL
+- https://scs-architecture.org/index.html
+- https://www.drdobbs.com/errant-architectures/184414966
+
 # TESTING
 - https://docs.microsoft.com/en-us/dotnet/core/testing/unit-testing-best-practices#naming-your-tests
 - https://www.linkedin.com/feed/update/urn:li:activity:6856441790757654528/
@@ -49,6 +53,9 @@ published: true
 - consistency of scenario frequency (https://www.alibabacloud.com/blog/an-in-depth-understanding-of-aggregation-in-domain-driven-design_598034)
 - EVENT SOURCING is a storage design pattern
 - CQRS  is an application/architecture pattern focused around how to pipeline your code
+
+## VALIDATION
+- https://learn.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/domain-model-layer-validations
 
 # EVENTSTORMING
 - Pivot Events
