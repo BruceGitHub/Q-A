@@ -13,14 +13,14 @@ published: true
 
 # Some links:
 
-- 2018 - https://blog.arkency.com/modeling-passing-time-with-events/
-- PAWEŁ PACANA - 
-
 - 2022 - https://luke-gee.medium.com/representing-the-passage-of-time-in-an-event-driven-system-48fc358316e0
 - Luke Gee - 
 
 - 2019 - https://verraes.net/2019/05/patterns-for-decoupling-distsys-passage-of-time-event/
 - Mattia Verraes - 
+
+- 2018 - https://blog.arkency.com/modeling-passing-time-with-events/
+- PAWEŁ PACANA - 
 
 - xxxx - https://szymonpobiega.github.io/SendingMessagesToTheFuture/#/37
 - Szymon Pobiega -  
