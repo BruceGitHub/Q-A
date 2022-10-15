@@ -18,6 +18,8 @@ published: true
 - 2019 - https://medium.com/engineering-varo/event-driven-architecture-and-the-outbox-pattern-569e6fba7216
 - Rod Shokrian - 
 
+- 2019 - https://debezium.io/blog/2019/02/19/reliable-microservices-data-exchange-with-the-outbox-pattern/
+- Gunnar Morling - 
 
 # Some links agains
 
@@ -41,7 +43,6 @@ published: true
 
 - 2020 - https://exactly-once.github.io/posts/outbox/
 - @SzymonPobiega - 
-
 
 
 # My answer:

@@ -7,8 +7,8 @@ tags:
 published: true
 ---
 
-# REVIEW
-- https://medium.com/geekculture/ideas-on-performing-high-value-code-reviews-385efb94d508
+# API 
+- anemic rest api
 
 # ARCHITECTURE-GENERAL
 - Change-Data-Capture
@@ -18,37 +18,13 @@ published: true
 - https://scs-architecture.org/index.html
 - https://www.drdobbs.com/errant-architectures/184414966
 
-# TESTING
-- https://docs.microsoft.com/en-us/dotnet/core/testing/unit-testing-best-practices#naming-your-tests
-- https://www.linkedin.com/feed/update/urn:li:activity:6856441790757654528/
-- https://www.youtube.com/watch?v=k_ItB5btREU
+# CQRS
+- https://danielwhittaker.me/2014/11/15/aggregate-root-cqrs-event-sourcing/
+- https://tsh.io/blog/cqrs-event-sourcing-php/
 
-# OOP
-- Mixin - https://www.typescriptlang.org/docs/handbook/mixins.html
-- Mixin - https://mariusschulz.com/blog/mixin-classes-in-typescript
--           
-- Context Oriented Programming
-- Actor model 
-- Companion Object 
-- Friends keyword as Antipatterns of oop
-- Tell Dont Ask & LoD
-- Indirection, also called dereferencing 
-  -- (https://en.wikipedia.org/wiki/Indirection)
-  -- https://betterprogramming.pub/avoiding-premature-software-abstractions-8ba2e990930a
-- Temporal coupling
-- Technical leak related to temporal coupling
-- Leaky Abstractions
-- Temporal coupling
-- Design Application with events
-- horizontal - decomposition
-- vertical - decomposition
-- DoR - decomposition of responsibility
-- TFP vs TDD
-
-# MICROSERVICES
-- Advisory lock Pattern
-- Chassis Pattern - https://dzone.com/articles/ms-chassis-pattern
-- Choreography vs Orchestration - https://solace.com/blog/microservices-choreography-vs-orchestration/
+- Many people have been getting confused over what CQRS is. They look at CQRS as being an architecture; it is not. CQRS is a very 
+  simple pattern that enables many opportunities for architecture that may otherwise not exist. 
+  https://web.archive.org/web/20110108231518/http://codebetter.com/gregyoung/2010/02/16/cqrs-task-based-uis-event-sourcing-agh/
 
 # DDD
 - https://www.domainlanguage.com/wp-content/uploads/2016/04/GettingStartedWithDDDWhenSurroundedByLegacySystemsV1.pdf
@@ -82,10 +58,38 @@ published: true
 # EVENTSOURCING - FUNCTIONAL
 - https://verraes.net/2014/05/functional-foundation-for-cqrs-event-sourcing/
 
-# CQRS
-- https://danielwhittaker.me/2014/11/15/aggregate-root-cqrs-event-sourcing/
-- https://tsh.io/blog/cqrs-event-sourcing-php/
+# MICROSERVICES
+- Duplicate Detection in the Consuming Service
+- Advisory lock Pattern
+- Chassis Pattern - https://dzone.com/articles/ms-chassis-pattern
+- Choreography vs Orchestration - https://solace.com/blog/microservices-choreography-vs-orchestration/
 
-- Many people have been getting confused over what CQRS is. They look at CQRS as being an architecture; it is not. CQRS is a very 
-  simple pattern that enables many opportunities for architecture that may otherwise not exist. 
-  https://web.archive.org/web/20110108231518/http://codebetter.com/gregyoung/2010/02/16/cqrs-task-based-uis-event-sourcing-agh/
+# OOP
+- Mixin - https://www.typescriptlang.org/docs/handbook/mixins.html
+- Mixin - https://mariusschulz.com/blog/mixin-classes-in-typescript
+-           
+- Context Oriented Programming
+- Actor model 
+- Companion Object 
+- Friends keyword as Antipatterns of oop
+- Tell Dont Ask & LoD
+- Indirection, also called dereferencing 
+  -- (https://en.wikipedia.org/wiki/Indirection)
+  -- https://betterprogramming.pub/avoiding-premature-software-abstractions-8ba2e990930a
+- Temporal coupling
+- Technical leak related to temporal coupling
+- Leaky Abstractions
+- Temporal coupling
+- Design Application with events
+- horizontal - decomposition
+- vertical - decomposition
+- DoR - decomposition of responsibility
+- TFP vs TDD
+
+# REVIEW
+- https://medium.com/geekculture/ideas-on-performing-high-value-code-reviews-385efb94d508
+
+# TESTING
+- https://docs.microsoft.com/en-us/dotnet/core/testing/unit-testing-best-practices#naming-your-tests
+- https://www.linkedin.com/feed/update/urn:li:activity:6856441790757654528/
+- https://www.youtube.com/watch?v=k_ItB5btREU
