@@ -12,6 +12,10 @@ published: true
 ---
 
 # Some links:
+
+- 2022 - https://pkritiotis.io/outbox-pattern-in-go/
+- https://pkritiotis.io/outbox-pattern-in-go/ [go]
+
 - 2021 - https://microservices.io/patterns/data/transactional-outbox.html
 - Chris - 
 
