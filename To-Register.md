@@ -10,6 +10,7 @@ published: true
 # Some links:
 
 - 2022/10/15 - 
+  - https://learn.microsoft.com/en-us/dotnet/architecture/microservices/architect-microservice-container-applications/asynchronous-message-based-communication [ms, async, es]
   - https://debezium.io/blog/2018/07/19/advantages-of-log-based-change-data-capture/ [cdc]
   - https://debezium.io/blog/2020/02/10/event-sourcing-vs-cdc/ [cdc]
   - https://blog.christianposta.com/microservices/the-hardest-part-about-microservices-data/ [ms, es]
