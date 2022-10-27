@@ -69,6 +69,11 @@ published: true
 - Chassis Pattern - https://dzone.com/articles/ms-chassis-pattern
 - Choreography vs Orchestration - https://solace.com/blog/microservices-choreography-vs-orchestration/
 
+## QUEUE
+- fan-out - https://sookocheff.com/post/messaging/publish-subscribe-messaging-using-sqs/
+- Point-to-Point Channel
+- Competing Consumers
+
 # OOP
 - Mixin - https://www.typescriptlang.org/docs/handbook/mixins.html
 - Mixin - https://mariusschulz.com/blog/mixin-classes-in-typescript
