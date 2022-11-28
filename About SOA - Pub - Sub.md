@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Template"
+title: "Publish Subscribber architecture"
 date: 2022-11-28
 tags:
  - [soa]
