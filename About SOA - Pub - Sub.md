@@ -35,4 +35,5 @@ CompA (a2) > read the `queue` do the work emit `EVENT` accomplished to `internal
 CompA (a3) > read the `internal queue` and emit `self event` 
 
                a1            a2          a3  
-distilled flow:`HTTP POST` > `COMMAND` > `EVENT`
+distilled flow:`HTTP POST` > `COMMAND` > `EVENT` 
+                                          `<<internal event>>`
