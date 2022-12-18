@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Template"
+title: "About refactoring"
 date: 2022-04-22
 tags:
  - [refactoring]
