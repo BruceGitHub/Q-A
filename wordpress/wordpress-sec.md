@@ -12,7 +12,7 @@ tags:
 published: true
 ---
 
-# Tools:
+# Tools
 - https://github.com/wpscanteam/wpscan
 - https://cirt.net/nikto2/
 - https://github.com/espreto/wpsploit
@@ -33,7 +33,7 @@ published: true
 - https://wordpress.org/plugins/wordfence/
 
 
-# Post - Hardening
+# Hardening
 - https://wordpress.org/support/article/hardening-wordpress/
 - https://build.codepoet.com/2012/07/10/locking-down-wordpress/
 - https://makeawebsitehub.com/wordpress-security/
@@ -52,23 +52,23 @@ published: true
 - https://www.getastra.com/blog/cms/wordpress-security/wordpress-security-guide/
 
 
-# Post - Pentest
+# Pentest
 - https://www.getastra.com/blog/security-audit/wordpress-penetration-testing/
 
-# Post - Monitoring
+# Monitoring
 
 
-# Post 
+# General 
 - https://wordpress.org/support/article/faq-my-site-was-hacked/
 - https://wordpress.stackexchange.com/questions/58391/is-moving-wp-config-outside-the-web-root-really-beneficial
 - https://blog.sucuri.net/2012/08/wordpress-security-cutting-through-the-bs.html
+- https://wordpress.tv/2010/01/23/brad-williams-security-boston10/
+- https://blog.sucuri.net/2021/03/how-do-websites-get-hacked.html
+- https://blog.sucuri.net/2019/05/wordpress-hacks-5-ways-to-protect-wordpress-from-hacking.html
 
 
 # Blog
 - https://www.wordfence.com/
-- https://wordpress.tv/2010/01/23/brad-williams-security-boston10/
 - https://www.wpwhitesecurity.com/
 - https://blog.wpsec.com/
-- https://blog.sucuri.net/2021/03/how-do-websites-get-hacked.html
-- https://blog.sucuri.net/2019/05/wordpress-hacks-5-ways-to-protect-wordpress-from-hacking.html
 - https://sucuri.net/guides/wordpress-security/
