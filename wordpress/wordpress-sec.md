@@ -3,10 +3,12 @@ layout: post
 title: "Wordpres security"
 date: 2022-04-22
 tags:
- - [tag1]
- - [tag2]
- - [tag3]
- - [tag4]
+ - [tools]
+ - [plugin]
+ - [hardening]
+ - [monitoring]
+ - [Pentest]
+ - [security]
 published: true
 ---
 
@@ -50,7 +52,7 @@ published: true
 - https://www.getastra.com/blog/cms/wordpress-security/wordpress-security-guide/
 
 
-# Post - Penttest
+# Post - Pentest
 - https://www.getastra.com/blog/security-audit/wordpress-penetration-testing/
 
 # Post - Monitoring
