@@ -22,6 +22,7 @@ published: true
 
 
 # Pluging
+- https://it.wordpress.org/plugins/wp-security-audit-log/
 - https://wordpress.org/plugins/wp-simple-firewall/
 - https://wordpress.org/plugins/sucuri-scanner/
 - https://wordpress.org/plugins/all-in-one-wp-security-and-firewall/
@@ -68,6 +69,7 @@ published: true
 
 
 # Blog
+- https://wpactivitylog.com/blog/
 - https://www.wordfence.com/
 - https://www.wpwhitesecurity.com/
 - https://blog.wpsec.com/
