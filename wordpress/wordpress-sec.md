@@ -7,7 +7,7 @@ tags:
  - [plugin]
  - [hardening]
  - [monitoring]
- - [Pentest]
+ - [pentest]
  - [security]
 published: true
 ---
