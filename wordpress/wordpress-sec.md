@@ -13,7 +13,7 @@ published: true
 ---
 
 # Tools
-- https://github.com/wpscanteam/wpscan
+- https://github.com/wpscanteam/wpscan 
 - https://cirt.net/nikto2/
 - https://github.com/espreto/wpsploit
 - https://chrome.google.com/webstore/detail/wpintel-wordpress-vulnera/mkhmkjcbidkifopffebieonhhkondlfe?hl=en
@@ -35,10 +35,9 @@ published: true
 
 
 # Hardening
-- https://wordpress.org/support/article/hardening-wordpress/
-- https://build.codepoet.com/2012/07/10/locking-down-wordpress/
-- https://makeawebsitehub.com/wordpress-security/
-- https://www.wpbeginner.com/wordpress-security/
+- https://wordpress.org/support/article/hardening-wordpress/ [annotated]
+- https://makeawebsitehub.com/wordpress-security/ [annotated]
+- https://www.wpbeginner.com/wordpress-security/ 
 - https://www.malcare.com/blog/wordpress-hardening/
 - https://www.wpwhitesecurity.com/wordpress-security/
 - https://increasily.com/a-beginners-guide-to-hardening-wordpress-security/
@@ -51,6 +50,9 @@ published: true
 - https://www.wpbeginner.com/wp-tutorials/how-to-password-protect-your-wordpress-admin-wp-admin-directory/
 - https://websitesetup.org/wordpress-security/
 - https://www.getastra.com/blog/cms/wordpress-security/wordpress-security-guide/
+
+- https://build.codepoet.com/2012/07/10/locking-down-wordpress/ [problem with link]
+
 
 
 # Pentest
