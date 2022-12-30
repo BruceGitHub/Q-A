@@ -56,9 +56,6 @@ published: true
 # Pentest
 - https://www.getastra.com/blog/security-audit/wordpress-penetration-testing/
 
-# Monitoring
-
-
 # General 
 - https://wordpress.org/support/article/faq-my-site-was-hacked/
 - https://wordpress.stackexchange.com/questions/58391/is-moving-wp-config-outside-the-web-root-really-beneficial
@@ -67,10 +64,11 @@ published: true
 - https://blog.sucuri.net/2021/03/how-do-websites-get-hacked.html
 - https://blog.sucuri.net/2019/05/wordpress-hacks-5-ways-to-protect-wordpress-from-hacking.html
 
-
 # Blog
 - https://wpactivitylog.com/blog/
 - https://www.wordfence.com/
 - https://www.wpwhitesecurity.com/
 - https://blog.wpsec.com/
 - https://sucuri.net/guides/wordpress-security/
+
+# Monitoring

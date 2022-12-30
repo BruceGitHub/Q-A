@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"7149d46b2ce7e398","x":-261,"y":-346,"width":930,"height":190,"type":"text","text":"-  https://github.com/wpscanteam/wpscan\n- https://cirt.net/nikto2/\n- https://github.com/espreto/wpsploit\n- https://chrome.google.com/webstore/detail/wpintel-wordpress-vulnera/mkhmkjcbidkifopffebieonhhkondlfe?hl=en\n- https://github.com/guptabless/wp-version\n- https://github.com/guptabless/wp-analyzer"},
+		{"id":"3daede9033734ce6","x":-738,"y":-276,"width":250,"height":50,"color":"4","type":"text","text":"TOOLS"},
+		{"id":"794179a55902f5e9","x":-261,"y":-111,"width":711,"height":298,"type":"text","text":"- https://it.wordpress.org/plugins/wp-security-audit-log/\n- https://wordpress.org/plugins/wp-simple-firewall/\n- https://wordpress.org/plugins/sucuri-scanner/\n- https://wordpress.org/plugins/all-in-one-wp-security-and-firewall/\n- https://wordpress.org/plugins/better-wp-security/\n- https://wordpress.org/plugins/bulletproof-security/\n- https://sucuri.net/wordpress-security-plugin/\n- https://www.wpwhitesecurity.com/wordpress-plugins/website-file-changes-monitor/\n- https://wordpress.org/plugins/audit-trail/\n- https://wordpress.org/plugins/wordfence/"},
+		{"id":"4c1f08d43415ea06","x":-738,"y":8,"width":250,"height":60,"color":"4","type":"text","text":"PLUGIN"},
+		{"id":"9472effda355d2d1","x":-738,"y":240,"width":250,"height":60,"color":"4","type":"text","text":"PENTEST"},
+		{"id":"5112f821e22012dd","x":-261,"y":240,"width":250,"height":60,"type":"text","text":"- https://www.getastra.com/blog/security-audit/wordpress-penetration-testing/"},
+		{"id":"d2e475c0d113e652","x":-261,"y":384,"width":916,"height":214,"type":"text","text":"- https://wordpress.org/support/article/faq-my-site-was-hacked/\n- https://wordpress.stackexchange.com/questions/58391/is-moving-wp-config-outside-the-web-root-really-beneficial\n- https://blog.sucuri.net/2012/08/wordpress-security-cutting-through-the-bs.html\n- https://wordpress.tv/2010/01/23/brad-williams-security-boston10/\n- https://blog.sucuri.net/2021/03/how-do-websites-get-hacked.html\n- https://blog.sucuri.net/2019/05/wordpress-hacks-5-ways-to-protect-wordpress-from-hacking.html"},
+		{"id":"cb3e2de1300ff873","x":-738,"y":461,"width":250,"height":60,"color":"4","type":"text","text":"GENERAL"},
+		{"id":"9d6d8055de03d375","x":-261,"y":723,"width":451,"height":172,"type":"text","text":"- https://wpactivitylog.com/blog/\n- https://www.wordfence.com/\n- https://www.wpwhitesecurity.com/\n- https://blog.wpsec.com/\n- https://sucuri.net/guides/wordpress-security/"},
+		{"id":"779a364d976b4712","x":-738,"y":779,"width":250,"height":60,"color":"4","type":"text","text":"BLOG"}
+	],
+	"edges":[
+		{"id":"3928f1cafeacc3de","fromNode":"3daede9033734ce6","fromSide":"right","toNode":"7149d46b2ce7e398","toSide":"left"},
+		{"id":"dbd75e0af10040ce","fromNode":"4c1f08d43415ea06","fromSide":"right","toNode":"794179a55902f5e9","toSide":"left"},
+		{"id":"ca13a96c698cfbf9","fromNode":"9472effda355d2d1","fromSide":"right","toNode":"5112f821e22012dd","toSide":"left"},
+		{"id":"2435f506e1ae6c16","fromNode":"cb3e2de1300ff873","fromSide":"right","toNode":"d2e475c0d113e652","toSide":"left"},
+		{"id":"edb143994a1e56d3","fromNode":"779a364d976b4712","fromSide":"right","toNode":"9d6d8055de03d375","toSide":"left"}
+	]
+}
