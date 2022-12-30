@@ -33,12 +33,18 @@ published: true
 - https://wordpress.org/plugins/audit-trail/
 - https://wordpress.org/plugins/wordfence/
 
+## Plugin - Firewall
+- https://sucuri.net/?cjevent=baa823f8889311ed8017c27c0a18b8f8&cj_aid=13941744&cj_pid=3496629&cj_cid=2282257 [payment]
+
+## Plugin - Brute force 
+- https://wordpress.org/plugins/login-lockdown/
+
 
 # Hardening
 - https://wordpress.org/support/article/hardening-wordpress/ [annotated]
 - https://makeawebsitehub.com/wordpress-security/ [annotated]
-- https://www.wpbeginner.com/wordpress-security/ 
-- https://www.malcare.com/blog/wordpress-hardening/
+- https://www.wpbeginner.com/wordpress-security/ [annotated]
+- https://www.malcare.com/blog/wordpress-hardening/ [annotated]
 - https://www.wpwhitesecurity.com/wordpress-security/
 - https://increasily.com/a-beginners-guide-to-hardening-wordpress-security/
 - https://www.wordfence.com/learn/how-to-harden-wordpress-sites/
