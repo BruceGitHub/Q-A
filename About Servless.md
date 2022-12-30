@@ -13,8 +13,5 @@ tags:
 - 2022 - https://leejamesgilmore.medium.com/serverless-domain-driven-design-6da44e151cfa
 - Lee James Gilmore - 
 
-
-
 # My answer:
-va o no va 
 
