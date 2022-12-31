@@ -45,21 +45,18 @@ published: true
 - https://makeawebsitehub.com/wordpress-security/ [annotated]
 - https://www.wpbeginner.com/wordpress-security/ [annotated]
 - https://www.malcare.com/blog/wordpress-hardening/ [annotated]
-- https://www.wpwhitesecurity.com/wordpress-security/
-- https://increasily.com/a-beginners-guide-to-hardening-wordpress-security/
-- https://www.wordfence.com/learn/how-to-harden-wordpress-sites/
-- https://wpmudev.com/blog/must-do-steps-securing-wordpress/
-- https://www.geeksforgeeks.org/11-effective-ways-for-hardening-wordpress/
+- https://www.wpwhitesecurity.com/wordpress-security/ [annotated]
+- https://increasily.com/a-beginners-guide-to-hardening-wordpress-security/ [annotated]
+- https://www.wordfence.com/learn/how-to-harden-wordpress-sites/ [annotated]
+- https://wpmudev.com/blog/must-do-steps-securing-wordpress/[annotated]
+- https://www.geeksforgeeks.org/11-effective-ways-for-hardening-wordpress/ [annotated]
 - https://kinsta.com/blog/wordpress-security/
 - https://blog.hubspot.com/website/wordpress-security
 - https://wordpress.org/support/article/administration-over-ssl/
 - https://www.wpbeginner.com/wp-tutorials/how-to-password-protect-your-wordpress-admin-wp-admin-directory/
 - https://websitesetup.org/wordpress-security/
 - https://www.getastra.com/blog/cms/wordpress-security/wordpress-security-guide/
-
-- https://build.codepoet.com/2012/07/10/locking-down-wordpress/ [problem with link]
-
-
+- https://build.codepoet.com/2012/07/10/locking-down-wordpress/ [problem-with-link]
 
 # Pentest
 - https://www.getastra.com/blog/security-audit/wordpress-penetration-testing/
@@ -80,3 +77,6 @@ published: true
 - https://sucuri.net/guides/wordpress-security/
 
 # Monitoring
+
+# Has been hacked
+- https://www.wordfence.com/learn/has-my-site-been-hacked/

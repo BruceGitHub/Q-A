@@ -16,6 +16,9 @@ Provides reliable methods for backup and recovery.
 - https://wordpress.org/support/article/brute-force-attacks/
 
 ## Change username 
+```sql
+UPDATE wp_users SET user_login = ‘newuser’ WHERE user_login = ‘admin’;
+```
 - https://wordpress.org/plugins/change-username/
 
 ## Backups automatic
@@ -26,8 +29,10 @@ Provides reliable methods for backup and recovery.
 - https://www.malcare.com/
 
 
-## Monitoring - integrity files
-- ...
+## Monitoring & integrity files
+- https://www.wpwhitesecurity.com/wordpress-file-integrity-scanning-site/
+- https://www.wpwhitesecurity.com/wordpress-plugins/website-file-changes-monitor/
+
 
 ## Firewall 
 - https://www.wpbeginner.com/plugins/best-wordpress-firewall-plugins-compared/
@@ -70,6 +75,42 @@ Follow the same method as detailed in the previous section, you need to add the 
 `define(‘DISALLOW_FILE_MODS’,true);`
 
 ## Use SFTP
+
+## Restrict the WordPress REST API
+- https://wordpress.org/plugins/disable-json-api/
+```php
+add_filter( 'rest_authentication_errors', function( $result ) {
+if ( ! empty( $result ) ) {
+return $result;
+}
+if ( ! is_user_logged_in() ) {
+return new WP_Error( 'rest_not_logged_in', 'You are not currently logged in.', array( 'status' =&amp;amp;gt; 401 ) );
+}
+return $result;
+});
+```
+
+- https://developer.wordpress.org/reference/hooks/rest_authentication_errors/
+- https://developer.wordpress.org/reference/hooks/rest_jsonp_enabled/
+
+## Prevent version disclosure
+- https://gist.github.com/Auke1810/f2a4cf04f2c07c74a393a4b442f22267
+
+## Prevet enumeraiton
+- /?author=<number>.
+- https://www.wpwhitesecurity.com/wordpress-security/
+
+## Check files permission
+- https://www.wpwhitesecurity.com/wordpress-file-permissions-guide-secure-website-server/
+- https://www.wordfence.com/learn/how-to-restrict-wordpress-file-permissions/
+
+## Disable Trackbacks and Pingbacks
+- https://wpmudev.com/blog/trackback-pingback-spam/
+
+## Hide PHP Errors
+```php
+define( 'WP_DEBUG', true);
+```
 
 
 
