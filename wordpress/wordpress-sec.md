@@ -32,6 +32,10 @@ published: true
 - https://www.wpwhitesecurity.com/wordpress-plugins/website-file-changes-monitor/
 - https://wordpress.org/plugins/audit-trail/
 - https://wordpress.org/plugins/wordfence/
+- https://wordpress.org/plugins/secupress/
+- https://wordpress.org/plugins/wp-fail2ban/
+
+
 
 ## Plugin - Firewall
 - https://sucuri.net/?cjevent=baa823f8889311ed8017c27c0a18b8f8&cj_aid=13941744&cj_pid=3496629&cj_cid=2282257 [payment]
@@ -49,7 +53,7 @@ published: true
 - https://www.wordfence.com/learn/how-to-harden-wordpress-sites/ [annotated]
 - https://wpmudev.com/blog/must-do-steps-securing-wordpress/ [annotated]
 - https://www.geeksforgeeks.org/11-effective-ways-for-hardening-wordpress/ [annotated]
-- https://kinsta.com/blog/wordpress-security/
+- https://kinsta.com/blog/wordpress-security/ [annotated]
 - https://blog.hubspot.com/website/wordpress-security
 - https://wordpress.org/support/article/administration-over-ssl/
 - https://www.wpbeginner.com/wp-tutorials/how-to-password-protect-your-wordpress-admin-wp-admin-directory/

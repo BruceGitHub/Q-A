@@ -32,6 +32,7 @@ UPDATE wp_users SET user_login = ‘newuser’ WHERE user_login = ‘admin’;
 ## Monitoring & integrity files
 - https://www.wpwhitesecurity.com/wordpress-file-integrity-scanning-site/
 - https://www.wpwhitesecurity.com/wordpress-plugins/website-file-changes-monitor/
+- https://kinsta.com/blog/file-integrity-monitoring/
 
 
 ## Firewall 
@@ -75,6 +76,7 @@ Follow the same method as detailed in the previous section, you need to add the 
 `define(‘DISALLOW_FILE_MODS’,true);`
 
 ## Use SFTP
+- https://kinsta.com/knowledgebase/how-to-use-sftp/
 
 ## Restrict the WordPress REST API
 - https://wordpress.org/plugins/disable-json-api/
@@ -100,6 +102,11 @@ return $result;
 - /?author=<number>.
 - https://www.wpwhitesecurity.com/wordpress-security/
 
+## Prevent Prevent Hotlinking
+- https://kinsta.com/blog/hotlinking/
+- https://kinsta.com/blog/wordpress-security/#17-prevent-hotlinking
+
+
 ## Check files permission
 - https://www.wpwhitesecurity.com/wordpress-file-permissions-guide-secure-website-server/
 - https://www.wordfence.com/learn/how-to-restrict-wordpress-file-permissions/
@@ -112,7 +119,11 @@ return $result;
 define( 'WP_DEBUG', true);
 ```
 
+## Add Latest HTTP Security Headers
+- https://kinsta.com/blog/wordpress-security/#11-add-latest-http-security-headers
+- https://www.wpbeginner.com/beginners-guide/how-to-add-http-security-headers-in-wordpress/
 
 
 # Links
 - https://wordpress.org/support/article/hardening-wordpress/
+- https://wordpress.org/support/category/security/
