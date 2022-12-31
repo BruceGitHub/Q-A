@@ -39,7 +39,6 @@ published: true
 ## Plugin - Brute force 
 - https://wordpress.org/plugins/login-lockdown/
 
-
 # Hardening
 - https://wordpress.org/support/article/hardening-wordpress/ [annotated]
 - https://makeawebsitehub.com/wordpress-security/ [annotated]
@@ -48,7 +47,7 @@ published: true
 - https://www.wpwhitesecurity.com/wordpress-security/ [annotated]
 - https://increasily.com/a-beginners-guide-to-hardening-wordpress-security/ [annotated]
 - https://www.wordfence.com/learn/how-to-harden-wordpress-sites/ [annotated]
-- https://wpmudev.com/blog/must-do-steps-securing-wordpress/[annotated]
+- https://wpmudev.com/blog/must-do-steps-securing-wordpress/ [annotated]
 - https://www.geeksforgeeks.org/11-effective-ways-for-hardening-wordpress/ [annotated]
 - https://kinsta.com/blog/wordpress-security/
 - https://blog.hubspot.com/website/wordpress-security
