@@ -19,6 +19,7 @@ published: true
 - https://chrome.google.com/webstore/detail/wpintel-wordpress-vulnera/mkhmkjcbidkifopffebieonhhkondlfe?hl=en
 - https://github.com/guptabless/wp-version
 - https://github.com/guptabless/wp-analyzer
+- https://patchstack.com
 
 
 # Pluging
@@ -44,16 +45,16 @@ published: true
 - https://wordpress.org/plugins/login-lockdown/
 
 # Hardening
-- https://wordpress.org/support/article/hardening-wordpress/ [annotated]
-- https://makeawebsitehub.com/wordpress-security/ [annotated]
-- https://www.wpbeginner.com/wordpress-security/ [annotated]
-- https://www.malcare.com/blog/wordpress-hardening/ [annotated]
-- https://www.wpwhitesecurity.com/wordpress-security/ [annotated]
-- https://increasily.com/a-beginners-guide-to-hardening-wordpress-security/ [annotated]
-- https://www.wordfence.com/learn/how-to-harden-wordpress-sites/ [annotated]
-- https://wpmudev.com/blog/must-do-steps-securing-wordpress/ [annotated]
-- https://www.geeksforgeeks.org/11-effective-ways-for-hardening-wordpress/ [annotated]
-- https://kinsta.com/blog/wordpress-security/ [annotated]
+- https://wordpress.org/support/article/hardening-wordpress/ [[annotated]](hardening.md)
+- https://makeawebsitehub.com/wordpress-security/ [[annotated]](hardening.md)
+- https://www.wpbeginner.com/wordpress-security/ [[annotated]](hardening.md)
+- https://www.malcare.com/blog/wordpress-hardening/ [[annotated]](hardening.md)
+- https://www.wpwhitesecurity.com/wordpress-security/ [[annotated]](hardening.md)
+- https://increasily.com/a-beginners-guide-to-hardening-wordpress-security/ [[annotated]](hardening.md)
+- https://www.wordfence.com/learn/how-to-harden-wordpress-sites/ [[annotated]](hardening.md)
+- https://wpmudev.com/blog/must-do-steps-securing-wordpress/ [[annotated]](hardening.md)
+- https://www.geeksforgeeks.org/11-effective-ways-for-hardening-wordpress/ [[annotated]](hardening.md)
+- https://kinsta.com/blog/wordpress-security/ [[annotated]](hardening.md)
 - https://blog.hubspot.com/website/wordpress-security
 - https://wordpress.org/support/article/administration-over-ssl/
 - https://www.wpbeginner.com/wp-tutorials/how-to-password-protect-your-wordpress-admin-wp-admin-directory/
