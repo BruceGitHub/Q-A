@@ -35,7 +35,8 @@ published: true
 - https://wordpress.org/plugins/wordfence/
 - https://wordpress.org/plugins/secupress/
 - https://wordpress.org/plugins/wp-fail2ban/
-
+- https://wordpress.org/plugins/wps-hide-login/
+- https://wordpress.org/plugins/wp-security-hardening/
 
 
 ## Plugin - Firewall
@@ -55,11 +56,9 @@ published: true
 - https://wpmudev.com/blog/must-do-steps-securing-wordpress/ [[annotated]](hardening.md)
 - https://www.geeksforgeeks.org/11-effective-ways-for-hardening-wordpress/ [[annotated]](hardening.md)
 - https://kinsta.com/blog/wordpress-security/ [[annotated]](hardening.md)
-- https://blog.hubspot.com/website/wordpress-security
-- https://wordpress.org/support/article/administration-over-ssl/
-- https://www.wpbeginner.com/wp-tutorials/how-to-password-protect-your-wordpress-admin-wp-admin-directory/
-- https://websitesetup.org/wordpress-security/
-- https://www.getastra.com/blog/cms/wordpress-security/wordpress-security-guide/
+- https://blog.hubspot.com/website/wordpress-security [[annotated]](hardening.md)
+- https://websitesetup.org/wordpress-security/  [[annotated]](hardening.md)
+- https://www.getastra.com/blog/cms/wordpress-security/wordpress-security-guide/  [[annotated]](hardening.md)
 - https://build.codepoet.com/2012/07/10/locking-down-wordpress/ [problem-with-link]
 
 # Pentest

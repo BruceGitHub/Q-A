@@ -28,12 +28,10 @@ UPDATE wp_users SET user_login = ‘newuser’ WHERE user_login = ‘admin’;
 - https://sucuri.net/wordpress-security-plugin/?cjevent=2d7cadf7889311ed822b21110a18b8fc&cj_aid=13942195&cj_pid=3496629&cj_cid=2282257
 - https://www.malcare.com/
 
-
 ## Monitoring & integrity files
 - https://www.wpwhitesecurity.com/wordpress-file-integrity-scanning-site/
 - https://www.wpwhitesecurity.com/wordpress-plugins/website-file-changes-monitor/
 - https://kinsta.com/blog/file-integrity-monitoring/
-
 
 ## Firewall 
 - https://www.wpbeginner.com/plugins/best-wordpress-firewall-plugins-compared/
@@ -42,12 +40,12 @@ UPDATE wp_users SET user_login = ‘newuser’ WHERE user_login = ‘admin’;
 - https://www.wpbeginner.com/wp-tutorials/how-to-disable-php-execution-in-certain-wordpress-directories/
 - https://www.malcare.com/blog/disable-php-execution-directory-browsing/
 
-
 ## Change WordPress Database Prefix
 - https://www.wpbeginner.com/wp-tutorials/how-to-change-the-wordpress-database-prefix-to-improve-security/
 
 ## Disable Directory Indexing and Browsing
 - https://www.wpbeginner.com/wp-tutorials/disable-directory-browsing-wordpress/
+- https://websitesetup.org/wordpress-security/ (21-c)
 
 ## Disable XML-RPC in WordPress
 - https://www.wpbeginner.com/plugins/how-to-disable-xml-rpc-in-wordpress/
@@ -102,10 +100,9 @@ return $result;
 - /?author=<number>.
 - https://www.wpwhitesecurity.com/wordpress-security/
 
-## Prevent Prevent Hotlinking
+## Prevent Hotlinking
 - https://kinsta.com/blog/hotlinking/
 - https://kinsta.com/blog/wordpress-security/#17-prevent-hotlinking
-
 
 ## Check files permission
 - https://www.wpwhitesecurity.com/wordpress-file-permissions-guide-secure-website-server/
@@ -123,6 +120,30 @@ define( 'WP_DEBUG', true);
 - https://kinsta.com/blog/wordpress-security/#11-add-latest-http-security-headers
 - https://www.wpbeginner.com/beginners-guide/how-to-add-http-security-headers-in-wordpress/
 
+
+## Filter upload files
+- https://blog.hubspot.com/website/file-type-not-permitted-security-reasons
+
+## Change login path
+- https://wordpress.org/plugins/wps-hide-login/
+
+## Protected login with password
+- https://websitesetup.org/wordpress-security/ (12-d)
+
+## Move It to a Non-WWW Accessible Directory 
+- https://websitesetup.org/wordpress-security/ (18-a)
+
+## Deny Access to Your .htaccess and wp-config.php Files
+- https://websitesetup.org/wordpress-security/ (21-a)
+
+## Limit ip address
+- https://websitesetup.org/wordpress-security/ (21-b)
+
+## Remove defunct Plugins/themes
+- https://www.getastra.com/blog/cms/wordpress-security/wordpress-security-guide/ (4)
+
+## File persions
+- https://www.getastra.com/blog/cms/wordpress-security/wordpress-security-guide/ (19)
 
 # Links
 - https://wordpress.org/support/article/hardening-wordpress/
