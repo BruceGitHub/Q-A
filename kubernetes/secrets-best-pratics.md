@@ -24,3 +24,5 @@ data:
 stringData:
   username: administrator
 ```
+
+# Layer of isolation
