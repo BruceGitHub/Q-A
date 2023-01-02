@@ -10,11 +10,49 @@ tags:
 published: true
 ---
 
-
-
-
 # SECRETS IN CONFIG-MAP
 - https://kubernetes.io/docs/tasks/configmap-secret/managing-secret-using-config-file/
+- https://www.cloudytuts.com/tutorials/kubernetes/how-to-configure-node-based-apps-in-kubernetes/
+- https://youtu.be/tWc3wfC8sOc?t=904
+- https://hackernoon.com/kubernetes-secrets-and-configmaps
+- https://unofficial-kubernetes.readthedocs.io/en/latest/concepts/configuration/secret/
+
+  Example of secrets with custom path
+  ```yaml
+    {
+    "apiVersion": "v1",
+    "kind": "Pod",
+    "metadata": {
+        "name": "mypod",
+        "namespace": "myns"
+    },
+    "spec": {
+        "containers": [{
+        "name": "mypod",
+        "image": "redis",
+        "volumeMounts": [{
+            "name": "foo",
+            "mountPath": "/etc/foo",
+            "readOnly": true
+        }]
+        }],
+        "volumes": [{
+        "name": "foo",
+        "secret": {
+            "secretName": "mysecret",
+            "items": [{
+            "key": "username",
+            "path": "my-group/my-username"
+            }]
+        }
+        }]
+    }
+    }  
+  ```  
+
+# SECRETS TYPE
+- https://spacelift.io/blog/kubernetes-secrets#types-of-kubernetes-secrets
+- https://kubernetes.io/docs/concepts/configuration/secret/#docker-config-secrets
 
 # Vault
 - https://www.vaultproject.io/use-cases/kubernetes [annotated](/kubernetes/secrets-best-pratics.md)
