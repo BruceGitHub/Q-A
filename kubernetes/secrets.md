@@ -13,3 +13,5 @@ published: true
 # SECRETS IN CONFIG-MAP
 - https://kubernetes.io/docs/tasks/configmap-secret/managing-secret-using-config-file/
 
+# Vault
+- https://www.vaultproject.io/use-cases/kubernetes
