@@ -20,6 +20,7 @@ published: true
 - https://github.com/guptabless/wp-version
 - https://github.com/guptabless/wp-analyzer
 - https://patchstack.com
+- https://github.com/elcodigok/wphardening
 
 
 # Pluging
@@ -78,6 +79,7 @@ published: true
 - https://www.wpwhitesecurity.com/
 - https://blog.wpsec.com/
 - https://sucuri.net/guides/wordpress-security/
+- https://secure.wphackedhelp.com/blog/
 
 # Monitoring
 
