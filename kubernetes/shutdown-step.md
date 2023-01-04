@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Template"
-date: 2022-04-22
+title: "Shutdown step during rolling updates"
+date: 2032-01-03
 tags:
  - [k8s]
  - [kubernetes]
