@@ -16,6 +16,10 @@ published: true
 - https://youtu.be/tWc3wfC8sOc?t=904
 - https://hackernoon.com/kubernetes-secrets-and-configmaps
 - https://unofficial-kubernetes.readthedocs.io/en/latest/concepts/configuration/secret/
+- https://itnext.io/kubernetes-explained-deep-enough-configuration-cd4a9d1d8dcd 
+- https://azuredevcollege.com/trainingdays/day7/challenges/challenge-3.html
+
+
 
   Example of secrets with custom path
   ```yaml
