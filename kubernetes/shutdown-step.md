@@ -52,6 +52,7 @@ spec:
 # Distribuiting times
 
 |------------ terminationGracePeriodSeconds |------------ |
+
 |--- PreStop ---- |
 
 So 'terminationGracePeriodSeconds` includes `PresStop` time.
