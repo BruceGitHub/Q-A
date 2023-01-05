@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Shutdown step during rolling updates"
-date: 2032-01-03
+date: 2032-01-04
 tags:
  - [k8s]
  - [kubernetes]
@@ -104,6 +104,8 @@ spec:
 
 |--- PreStop ---- |
 
+![](https://engineering.rakuten.today/post/graceful-k8s-delpoyments/images/sigkill.png)
+
 So `terminationGracePeriodSeconds` includes `PresStop` time.
 
 - https://kubernetes.io/docs/concepts/containers/container-lifecycle-hooks/#hook-handler-execution
@@ -139,8 +141,15 @@ So `terminationGracePeriodSeconds` includes `PresStop` time.
 ## Attention point
 - While usually it works, in some cases there might be a race condition where our pod will finish draining connections and terminate itself before the controller finishes the deregistration process. In this situation, the ingress controller will keep sending traffic to the pod even though the pod is terminated, which will result in downtime.
 
+- Even after starting the pod shutdown process, which includes sending a TERM signal to pods, Kubernetes still sends new requests to the pod. Because there is no orchestration between Kubernetes sending TERM signal and removing the pod from its service endpoint list. Those 2 operations can happen in any order, possibly with delay in between them. Yikes 😬.
+
+- This limitation of iptables affects Kubernetes clusters using kube-proxy. Nowadays Kubernetes cluster operators have options other than kube-proxy & iptables: for example cilium or calico which use eBPF instead of iptables. We have not tested if eBPF CNI systems leave established connections untouched. But there is a bug in Cilium that causes existing connections to also fail during pod termination. So existing connections are likely to remain a challenge. ↩︎
+
+
 # Flow 
 ![](https://miro.medium.com/max/640/0*f5uyna4QDLDP8-cm)
+
+![](https://engineering.rakuten.today/post/graceful-k8s-delpoyments/images/sigterm.png)
 
 ![](https://cloudyuga.guru/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaEpJaWxsTkRWaU5Ua3paaTB5TW1NeExUUTJOR0l0WVRCa09DMW1OelUxWXpFMlltRmpNellHT2daRlZBPT0iLCJleHAiOm51bGwsInB1ciI6ImJsb2JfaWQifX0=--07c6ad01bb4970e2187644e834fef0404606712c/LifeCycle_hook3.png)
 
@@ -148,8 +157,14 @@ So `terminationGracePeriodSeconds` includes `PresStop` time.
 - https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/#pod-termination
 - 2022 - https://www.datree.io/resources/kubernetes-guide-graceful-shutdown-with-lifecycle-prestop-hook
 - 2022 - https://cloudyuga.guru/hands_on_lab/k8s-grace-period
+- 2022 - https://foxutech.medium.com/kubernetes-pod-graceful-shutdown-how-a9a46e0b1e53
+- 2022 - https://foxutech.com/kubernetes-pod-graceful-shutdown-how/
 - 2022 - https://livebook.manning.com/concept/kubernetes/terminationgraceperiodsecond
+- 2021 - https://engineering.rakuten.today/post/graceful-k8s-delpoyments/
 - 2020 - https://carlosbecker.com/posts/k8s-pod-shutdown-lifecycle/
+- 2020 - https://learnk8s.io/graceful-shutdown
+- 2019 - https://blog.gruntwork.io/gracefully-shutting-down-pods-in-a-kubernetes-cluster-328aecec90d#d7e5
+- 2019 - https://brandon.dimcheff.com/2018/02/rainbow-deploys-with-kubernetes/  
 - 2018 - https://cloud.google.com/blog/products/containers-kubernetes/kubernetes-best-practices-terminating-with-grace
 - 2016 - https://pracucci.com/graceful-shutdown-of-kubernetes-pods.html
 
