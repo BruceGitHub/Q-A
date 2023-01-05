@@ -105,11 +105,11 @@ So `terminationGracePeriodSeconds` includes `PresStop` time.
   - The API server deletes the Pod's API object, which is then no longer visible from any client.
 ```
 
+# Flow 
 ![](https://miro.medium.com/max/640/0*f5uyna4QDLDP8-cm)
 
 # Reference
 - https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/#pod-termination
-- [flow](https://miro.medium.com/max/640/0*f5uyna4QDLDP8-cm)
 - 2022 - https://livebook.manning.com/concept/kubernetes/terminationgraceperiodsecond
 - 2020 - https://carlosbecker.com/posts/k8s-pod-shutdown-lifecycle/
 - 2018 - https://cloud.google.com/blog/products/containers-kubernetes/kubernetes-best-practices-terminating-with-grace
