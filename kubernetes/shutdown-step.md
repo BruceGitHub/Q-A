@@ -25,6 +25,9 @@ It is up to the hook implementation to handle this correctly.
 
 - https://kubernetes.io/docs/concepts/containers/container-lifecycle-hooks/#hook-delivery-guarantees
 
+# Probe
+During this entire process, **readiness** and **liveness** probes will still be probed, but their failure will **not cause the killing of the container**, as it is already being killed.
+
 # PreStop
 
 This hook is called immediately before a container is terminate (this extends the period that allow to kublet to removes `IP` from EndPoints table).
@@ -106,5 +109,6 @@ So `terminationGracePeriodSeconds` includes `PresStop` time.
 - https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/#pod-termination
 - [flow](https://miro.medium.com/max/640/0*f5uyna4QDLDP8-cm)
 - 2022 - https://livebook.manning.com/concept/kubernetes/terminationgraceperiodsecond
+- 2020 - https://carlosbecker.com/posts/k8s-pod-shutdown-lifecycle/
 - 2018 - https://cloud.google.com/blog/products/containers-kubernetes/kubernetes-best-practices-terminating-with-grace
 - 2016 - https://pracucci.com/graceful-shutdown-of-kubernetes-pods.html
