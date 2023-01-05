@@ -56,6 +56,32 @@ spec:
           exec:
             command: ["sleep", "10"]
 ```
+
+## Http 
+```yaml
+lifecycle:
+  preStop:
+    httpGet:
+      port: 8080
+      path: shutdown
+```
+
+## Exec
+```yaml
+lifecycle:
+  preStop:
+    exec:
+      command:
+        -sh
+```
+
+## Common Mistakes
+- Exposing the HTTP Endpoint pubblic
+- Using a ‘Sleep’ Command
+- Using the Default TerminationGracePeriodSeconds
+- Not Following a Single Responsibility Model (??)
+
+
 # terminationGracePeriodSeconds
 Time to wait before k8s kills the process default is 30s.The timer starts when the pre-stop hook is called or when the TERM signal is sent if no hook is defined. If the process is still running after the termination grace period has expired, it’s terminated by force via the KILL signal. This terminates the container.
 
@@ -110,6 +136,9 @@ So `terminationGracePeriodSeconds` includes `PresStop` time.
   - The API server deletes the Pod's API object, which is then no longer visible from any client.
 ```
 
+## Attention point
+- While usually it works, in some cases there might be a race condition where our pod will finish draining connections and terminate itself before the controller finishes the deregistration process. In this situation, the ingress controller will keep sending traffic to the pod even though the pod is terminated, which will result in downtime.
+
 # Flow 
 ![](https://miro.medium.com/max/640/0*f5uyna4QDLDP8-cm)
 
@@ -117,8 +146,13 @@ So `terminationGracePeriodSeconds` includes `PresStop` time.
 
 # Reference
 - https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/#pod-termination
+- 2022 - https://www.datree.io/resources/kubernetes-guide-graceful-shutdown-with-lifecycle-prestop-hook
 - 2022 - https://cloudyuga.guru/hands_on_lab/k8s-grace-period
 - 2022 - https://livebook.manning.com/concept/kubernetes/terminationgraceperiodsecond
 - 2020 - https://carlosbecker.com/posts/k8s-pod-shutdown-lifecycle/
 - 2018 - https://cloud.google.com/blog/products/containers-kubernetes/kubernetes-best-practices-terminating-with-grace
 - 2016 - https://pracucci.com/graceful-shutdown-of-kubernetes-pods.html
+
+
+# Question 
+- Another service like: Db, queue broker, sentry are accessible from pod/container during the deletions with 'PreStop` hook ? 
