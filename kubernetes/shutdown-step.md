@@ -18,6 +18,11 @@ tags:
 published: true
 ---
 
+# Problem to resolve 
+- logs of the deleting pod to be stored in a remote location
+- current requests/jobs to be processed before pod deletes
+- update certain rules/fields before shut down.
+
 # Probe
 During this entire process, **readiness** and **liveness** probes will still be probed, but their failure will **not cause the killing of the container**, as it is already being killed.
 
@@ -108,8 +113,11 @@ So `terminationGracePeriodSeconds` includes `PresStop` time.
 # Flow 
 ![](https://miro.medium.com/max/640/0*f5uyna4QDLDP8-cm)
 
+![](https://cloudyuga.guru/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaEpJaWxsTkRWaU5Ua3paaTB5TW1NeExUUTJOR0l0WVRCa09DMW1OelUxWXpFMlltRmpNellHT2daRlZBPT0iLCJleHAiOm51bGwsInB1ciI6ImJsb2JfaWQifX0=--07c6ad01bb4970e2187644e834fef0404606712c/LifeCycle_hook3.png)
+
 # Reference
 - https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/#pod-termination
+- 2022 - https://cloudyuga.guru/hands_on_lab/k8s-grace-period
 - 2022 - https://livebook.manning.com/concept/kubernetes/terminationgraceperiodsecond
 - 2020 - https://carlosbecker.com/posts/k8s-pod-shutdown-lifecycle/
 - 2018 - https://cloud.google.com/blog/products/containers-kubernetes/kubernetes-best-practices-terminating-with-grace
