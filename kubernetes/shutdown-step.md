@@ -47,19 +47,6 @@ spec:
           exec:
             command: ["sleep", "10"]
 ```
-
-
-# Distribuiting times
-
-|------------ terminationGracePeriodSeconds |------------ |
-
-|--- PreStop ---- |
-
-So 'terminationGracePeriodSeconds` includes `PresStop` time.
-
-- https://kubernetes.io/docs/concepts/containers/container-lifecycle-hooks/#hook-handler-execution
-
-
 # terminationGracePeriodSeconds
 Time to wait before k8s kills the process default is 30s.The timer starts when the pre-stop hook is called or when the TERM signal is sent if no hook is defined. If the process is still running after the termination grace period has expired, it’s terminated by force via the KILL signal. This terminates the container.
 
@@ -75,6 +62,17 @@ spec:
   containers:
   ...
 ```
+
+# Distribuiting times
+
+|------------ terminationGracePeriodSeconds |------------ |
+
+|--- PreStop ---- |
+
+So 'terminationGracePeriodSeconds` includes `PresStop` time.
+
+- https://kubernetes.io/docs/concepts/containers/container-lifecycle-hooks/#hook-handler-execution
+
 
 # Step 
 ```
