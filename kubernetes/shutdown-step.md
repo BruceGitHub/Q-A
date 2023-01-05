@@ -69,7 +69,7 @@ spec:
 
 |--- PreStop ---- |
 
-So 'terminationGracePeriodSeconds` includes `PresStop` time.
+So `terminationGracePeriodSeconds` includes `PresStop` time.
 
 - https://kubernetes.io/docs/concepts/containers/container-lifecycle-hooks/#hook-handler-execution
 
