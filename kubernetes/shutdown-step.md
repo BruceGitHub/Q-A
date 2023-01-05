@@ -18,15 +18,16 @@ tags:
 published: true
 ---
 
-# Hook delivery guarantees (PostStart | PreStop)
+# Probe
+During this entire process, **readiness** and **liveness** probes will still be probed, but their failure will **not cause the killing of the container**, as it is already being killed.
+
+# Hook and delivery guarantees (PostStart | PreStop)
 Hook delivery is intended to be `at least once`, which means that a hook may be called multiple times for any given event, such as for PostStart or PreStop. 
 It is up to the hook implementation to handle this correctly.
 ... For instance, if a kubelet restarts in the middle of sending a hook, the hook might be resent after the kubelet comes back up.
 
 - https://kubernetes.io/docs/concepts/containers/container-lifecycle-hooks/#hook-delivery-guarantees
 
-# Probe
-During this entire process, **readiness** and **liveness** probes will still be probed, but their failure will **not cause the killing of the container**, as it is already being killed.
 
 # PreStop
 
