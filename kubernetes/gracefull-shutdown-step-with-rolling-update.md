@@ -145,13 +145,22 @@ So `terminationGracePeriodSeconds` includes `PresStop` time.
 
 - This limitation of iptables affects Kubernetes clusters using kube-proxy. Nowadays Kubernetes cluster operators have options other than kube-proxy & iptables: for example cilium or calico which use eBPF instead of iptables. We have not tested if eBPF CNI systems leave established connections untouched. But there is a bug in Cilium that causes existing connections to also fail during pod termination. So existing connections are likely to remain a challenge. ↩︎
 
-
 # Flow 
 ![](https://miro.medium.com/max/640/0*f5uyna4QDLDP8-cm)
 
 ![](https://engineering.rakuten.today/post/graceful-k8s-delpoyments/images/sigterm.png)
 
 ![](https://cloudyuga.guru/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaEpJaWxsTkRWaU5Ua3paaTB5TW1NeExUUTJOR0l0WVRCa09DMW1OelUxWXpFMlltRmpNellHT2daRlZBPT0iLCJleHAiOm51bGwsInB1ciI6ImJsb2JfaWQifX0=--07c6ad01bb4970e2187644e834fef0404606712c/LifeCycle_hook3.png)
+
+# Stragegy 
+## Sleep in the pre-stop hook
+wait for close gracefull 
+
+## Delay app shutdown
+delay programmatically, in application or wraps app in bash script
+
+## Dynamically delay app shutdown
+manage the times programmatically and handle incoming requests until possible
 
 # Reference
 - https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/#pod-termination
