@@ -38,6 +38,7 @@ published: true
 - https://wordpress.org/plugins/wp-fail2ban/
 - https://wordpress.org/plugins/wps-hide-login/
 - https://wordpress.org/plugins/wp-security-hardening/
+- https://wordpress.org/plugins/inactive-logout/
 
 
 ## Plugin - Firewall
