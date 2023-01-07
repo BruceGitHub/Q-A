@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Shutdown step during rolling updates"
-date: 2032-01-04
+date: 2032-01-07
 tags:
  - [k8s]
  - [kubernetes]
@@ -170,6 +170,7 @@ manage the times programmatically and handle incoming requests until possible
 - 2022 - https://foxutech.com/kubernetes-pod-graceful-shutdown-how/
 - 2022 - https://livebook.manning.com/concept/kubernetes/terminationgraceperiodsecond
 - 2021 - https://engineering.rakuten.today/post/graceful-k8s-delpoyments/
+- 2020 - https://deepsource.io/blog/zero-downtime-deployment/
 - 2020 - https://carlosbecker.com/posts/k8s-pod-shutdown-lifecycle/
 - 2020 - https://learnk8s.io/graceful-shutdown
 - 2019 - https://blog.gruntwork.io/gracefully-shutting-down-pods-in-a-kubernetes-cluster-328aecec90d#d7e5
