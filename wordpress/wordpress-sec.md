@@ -25,7 +25,6 @@ published: true
 
 # Pluging
 - https://it.wordpress.org/plugins/wp-security-audit-log/
-- https://wordpress.org/plugins/wp-simple-firewall/
 - https://wordpress.org/plugins/sucuri-scanner/
 - https://wordpress.org/plugins/all-in-one-wp-security-and-firewall/
 - https://wordpress.org/plugins/better-wp-security/
@@ -42,6 +41,7 @@ published: true
 
 
 ## Plugin - Firewall
+- https://wordpress.org/plugins/wp-simple-firewall/
 - https://sucuri.net/?cjevent=baa823f8889311ed8017c27c0a18b8f8&cj_aid=13941744&cj_pid=3496629&cj_cid=2282257 [payment]
 
 ## Plugin - Brute force 
