@@ -105,7 +105,7 @@ return $result;
 - https://kinsta.com/blog/hotlinking/
 - https://kinsta.com/blog/wordpress-security/#17-prevent-hotlinking
 
-## Check files permission
+## Check files permissions
 - https://www.wpwhitesecurity.com/wordpress-file-permissions-guide-secure-website-server/
 - https://www.wordfence.com/learn/how-to-restrict-wordpress-file-permissions/
 
@@ -117,10 +117,9 @@ return $result;
 define( 'WP_DEBUG', true);
 ```
 
-## Add Latest HTTP Security Headers
+## Add HTTP Security Headers
 - https://kinsta.com/blog/wordpress-security/#11-add-latest-http-security-headers
 - https://www.wpbeginner.com/beginners-guide/how-to-add-http-security-headers-in-wordpress/
-
 
 ## Filter upload files
 - https://blog.hubspot.com/website/file-type-not-permitted-security-reasons
@@ -130,8 +129,6 @@ define( 'WP_DEBUG', true);
 
 ## Protected login with password
 - https://websitesetup.org/wordpress-security/ (12-d)
-
-## Move It to a Non-WWW Accessible Directory 
 - https://websitesetup.org/wordpress-security/ (18-a)
 
 ## Deny Access to Your .htaccess and wp-config.php Files
@@ -143,15 +140,15 @@ define( 'WP_DEBUG', true);
 ## Remove defunct Plugins/themes
 - https://www.getastra.com/blog/cms/wordpress-security/wordpress-security-guide/ (4)
 
-## File persions
+## Fix File persions
 - https://www.getastra.com/blog/cms/wordpress-security/wordpress-security-guide/ (19)
 
 ## Remove leakage information
 - https://gist.github.com/zergiocosta/72f87176b236ed0c6e13 [error message]
 
-## Remove unctrusted entry point from the them
+## Remove untrusted entry point from the theme
 
-## Protecte from IP
+## Protected from IP
 
 ## Track 404 pageviews
 
