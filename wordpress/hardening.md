@@ -58,6 +58,7 @@ UPDATE wp_users SET user_login = ‘newuser’ WHERE user_login = ‘admin’;
 
 ## Implement least privilege permissions
 - https://wordpress.org/support/article/roles-and-capabilities/
+- Disable author pages with 0 posts
 
 ## Keep an audit log
 - https://wordpress.org/plugins/wp-security-audit-log/
@@ -145,6 +146,27 @@ define( 'WP_DEBUG', true);
 ## File persions
 - https://www.getastra.com/blog/cms/wordpress-security/wordpress-security-guide/ (19)
 
-# Links
+## Remove leakage information
+- https://gist.github.com/zergiocosta/72f87176b236ed0c6e13 [error message]
+
+## Remove unctrusted entry point from the them
+
+## Protecte from IP
+
+## Track 404 pageviews
+
+## Replace default jQuery file
+
+
+
+# Reference
+- https://secupress.me/wp-content/uploads/Beginner-SecuPress-WordPress-Security-Checklist.pdf
+- https://www.keycdn.com/blog/wordpress-security
+- https://99robots.com/wordpress-security-checklist/
+- https://secure.wphackedhelp.com/blog/wordpress-security-checklist-guide/#6
+- https://wpsupportdesk.com/blog/wordpress-security-checklist/
+- https://www.wordfence.com/wp-content/uploads/2015/12/Wordfence-How-To-Secure-Your-WordPress-Website-Checklist.pdf
+- https://www.wpsupporters.com/wordpress-security-checklist/
+- https://deepsource.io/blog/zero-downtime-deployment/
 - https://wordpress.org/support/article/hardening-wordpress/
 - https://wordpress.org/support/category/security/

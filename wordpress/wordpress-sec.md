@@ -13,10 +13,15 @@ published: true
 ---
 
 # Tools
+
+## Scanner
+- https://www.blogcadre.com/best-wordpress-security-plugins/
+- https://hackertarget.com/wordpress-security-scan/
+- https://wpsecurityninja.com/
 - https://github.com/wpscanteam/wpscan 
 - https://cirt.net/nikto2/
-- https://github.com/espreto/wpsploit
 - https://chrome.google.com/webstore/detail/wpintel-wordpress-vulnera/mkhmkjcbidkifopffebieonhhkondlfe?hl=en
+- https://github.com/espreto/wpsploit
 - https://github.com/guptabless/wp-version
 - https://github.com/guptabless/wp-analyzer
 - https://patchstack.com
@@ -24,6 +29,7 @@ published: true
 
 
 # Pluging
+- https://wordpress.org/plugins/bulletproof-security/
 - https://it.wordpress.org/plugins/wp-security-audit-log/
 - https://wordpress.org/plugins/sucuri-scanner/
 - https://wordpress.org/plugins/all-in-one-wp-security-and-firewall/
@@ -39,12 +45,25 @@ published: true
 - https://wordpress.org/plugins/wp-security-hardening/
 - https://wordpress.org/plugins/inactive-logout/
 
+## Staging area
+- https://wordpress.org/plugins/wp-staging/
 
-## Plugin - Firewall
+## Static site
+- https://wordpress.org/plugins/simply-static/
+
+## Login
+- https://wordpress.org/plugins/force-login-with-email/
+- https://wordpress.org/plugins/defender-security/
+- https://wordpress.org/plugins/username-updater/
+
+## 2FA
+- https://wordpress.org/plugins/google-authenticator/
+
+## Firewall
 - https://wordpress.org/plugins/wp-simple-firewall/
 - https://sucuri.net/?cjevent=baa823f8889311ed8017c27c0a18b8f8&cj_aid=13941744&cj_pid=3496629&cj_cid=2282257 [payment]
 
-## Plugin - Brute force 
+## Brute force 
 - https://wordpress.org/plugins/login-lockdown/
 
 # Hardening
@@ -67,6 +86,10 @@ published: true
 - https://www.getastra.com/blog/security-audit/wordpress-penetration-testing/
 
 # General 
+- https://seoapi.com/googlebot/
+- https://www.cvedetails.com/vulnerability-list/vendor_id-2337/product_id-4096/
+- https://transparencyreport.google.com/safe-browsing/search?hl=en
+- https://www.security.org/how-secure-is-my-password/
 - https://wordpress.org/support/article/faq-my-site-was-hacked/
 - https://wordpress.stackexchange.com/questions/58391/is-moving-wp-config-outside-the-web-root-really-beneficial
 - https://blog.sucuri.net/2012/08/wordpress-security-cutting-through-the-bs.html
@@ -75,6 +98,7 @@ published: true
 - https://blog.sucuri.net/2019/05/wordpress-hacks-5-ways-to-protect-wordpress-from-hacking.html
 
 # Blog
+- https://wordpress.com/support/security/
 - https://wpactivitylog.com/blog/
 - https://www.wordfence.com/
 - https://www.wpwhitesecurity.com/
