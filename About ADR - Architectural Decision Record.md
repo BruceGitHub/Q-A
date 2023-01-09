@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Architectural Decision Record"
-date: 2022-05-24
+date: 2023-01-08
 tags:
  - [architect]
  - [design]
@@ -11,6 +11,8 @@ published: true
 ---
 
 # Some links:
+
+ - https://docs.aws.amazon.com/prescriptive-guidance/latest/architectural-decision-records/adr-process.html   
 
 - github - https://github.com/adr
 
