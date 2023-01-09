@@ -34,7 +34,7 @@ jobs:
       - run: cd ${{ github.workspace }}/note-link-janitor && yarn install && yarn run build
       - name: Run Note Link Janitor
       # Runs note-link-janitor only on the src folder in the repo where the *.md files are. Modify this as per your own setup
-        run: ${{ github.workspace }}/note-link-janitor/dist/index.js ${{ github.workspace }}/${{ github.event.repository.name }}
+        run: ${{ github.workspace }}/note-link-janitor/dist/index.js ${{ github.workspace }}/${{ github.event.repository.name }}/wordpress
         
       - run: cd ${{ github.workspace }}/${{ github.event.repository.name }} && git status .
       - name: Commit changes
