@@ -31,7 +31,7 @@ is outdated and misleading
 ## Deliver Value Continuously
 
 ## Done only matters if it adds value, 
-!()[https://imgopt.infoq.com/fit-in/1200x2400/filters:quality(80)/filters:no_upscale()/articles/transcend-factory-modern-agile/en/resources/1Picture2.jpg]
+![](https://imgopt.infoq.com/fit-in/1200x2400/filters:quality(80)/filters:no_upscale()/articles/transcend-factory-modern-agile/en/resources/1Picture2.jpg)
 
 ## Make People Awesome
 When your team has no voice regarding what to build and just empties their plate of backlog features one after another, they are not awesome. Moreover, you are not getting their full contribution.
