@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ""
-date: 2022-01-18
+date: 2023-01-11
 tags:
  - [orm]
  - [persistent model]
