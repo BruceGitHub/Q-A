@@ -12,4 +12,6 @@ tags:
 published: true
 ---
 
+# General 
+
 2017 - https://www.infoq.com/articles/transcend-factory-modern-agile/ [[annotated]](problems-with-old-agile.md)
