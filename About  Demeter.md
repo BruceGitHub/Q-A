@@ -11,4 +11,4 @@ published: true
 
 
 - https://www2.ccs.neu.edu/research/demeter/demeter-method/LawOfDemeter/paper-boy/demeter.pdf
-Interisting overview with a simple example
+Interisting overview with a simple example. The LoD is also related to Tell Dont Ask
