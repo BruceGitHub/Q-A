@@ -23,10 +23,12 @@ published: true
     - LACK OF AUTOMATED TESTS: for the evolution 
 
 - COMMUNICATION DEBT: 
-    -Commit messages (with detailed descriptions!)
+    - Commit messages (with detailed descriptions!)
     - Pull/Merge Request comments
     - README files
     - Wikis and other internal documentation
     - Logging
     - ![](https://corgibytes.com/uploads/2020-02-12-keep-knowledge-close.jpeg)
-
+    - CODE LEGIBILITY: 
+    - DOMAIN CLARITY:
+    
