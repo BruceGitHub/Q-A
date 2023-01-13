@@ -31,4 +31,8 @@ published: true
     - ![](https://corgibytes.com/uploads/2020-02-12-keep-knowledge-close.jpeg)
     - CODE LEGIBILITY: 
     - DOMAIN CLARITY:
-    
+
+
+- ORGANIZATION DEBT:
+    - The architecture of a codebase is bound to be a mirror image of the communication structures that are set up by the organization that builds it. (Conway’s Law)
+    - CULTURAL ALIGNMENT: **if your culture doesn’t support interpersonal risk taking, a team member with valuable insight may hold back and not share even if they’ve spotted a flaw that could have saved the team hours of collective work.**
