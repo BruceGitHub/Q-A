@@ -11,6 +11,7 @@ Main topics key point in the comment
 
 - 2021 - https://www.eventstore.com/cqrs-pattern
     - https://www.eventstore.com/cqrs-pattern#CQRS-misconceptions
+    
     "Commands and queries need to be run on separate databases, and everything must be stored in separate databases
 
 - 2021 - https://event-driven.io/en/cqrs_facts_and_myths_explained/
