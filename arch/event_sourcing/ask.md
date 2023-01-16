@@ -10,4 +10,4 @@ published: true
 ---
 
 # How to modelling with functional programming
-- [](/arch/event_sourcing/Event%20sourcing%20modelling.md)
+- [/arch/event_sourcing/Event%20sourcing%20modelling.md]()
