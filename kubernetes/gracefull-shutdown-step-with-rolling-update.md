@@ -152,6 +152,8 @@ So `terminationGracePeriodSeconds` includes `PresStop` time.
 
 ![](https://cloudyuga.guru/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaEpJaWxsTkRWaU5Ua3paaTB5TW1NeExUUTJOR0l0WVRCa09DMW1OelUxWXpFMlltRmpNellHT2daRlZBPT0iLCJleHAiOm51bGwsInB1ciI6ImJsb2JfaWQifX0=--07c6ad01bb4970e2187644e834fef0404606712c/LifeCycle_hook3.png)
 
+![](https://user-images.githubusercontent.com/1064750/143430272-fb034bd0-6c7d-4479-af99-1f670d47672e.jpg)
+
 # Stragegy 
 ## Sleep in the pre-stop hook
 wait for close gracefull 
@@ -171,6 +173,7 @@ manage the times programmatically and handle incoming requests until possible
 - 2022 - https://livebook.manning.com/concept/kubernetes/terminationgraceperiodsecond
 - 2021 - https://engineering.rakuten.today/post/graceful-k8s-delpoyments/
 - 2021 - https://github.com/kubernetes/ingress-nginx/issues/6928#issuecomment-1143408093
+- 2021 - https://github.com/kubernetes-sigs/aws-load-balancer-controller/issues/2366
 - 2020 - https://deepsource.io/blog/zero-downtime-deployment/
 - 2020 - https://carlosbecker.com/posts/k8s-pod-shutdown-lifecycle/
 - 2020 - https://learnk8s.io/graceful-shutdown
