@@ -170,6 +170,7 @@ manage the times programmatically and handle incoming requests until possible
 - 2022 - https://foxutech.com/kubernetes-pod-graceful-shutdown-how/
 - 2022 - https://livebook.manning.com/concept/kubernetes/terminationgraceperiodsecond
 - 2021 - https://engineering.rakuten.today/post/graceful-k8s-delpoyments/
+- 2021 - https://github.com/kubernetes/ingress-nginx/issues/6928#issuecomment-1143408093
 - 2020 - https://deepsource.io/blog/zero-downtime-deployment/
 - 2020 - https://carlosbecker.com/posts/k8s-pod-shutdown-lifecycle/
 - 2020 - https://learnk8s.io/graceful-shutdown
