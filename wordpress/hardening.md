@@ -21,26 +21,18 @@ Provides reliable methods for backup and recovery.
 ## Backups automatic
 - article: https://www.wpbeginner.com/plugins/7-best-wordpress-backup-plugins-compared-pros-and-cons/
 
-## Monitoring
-- plugin: https://sucuri.net/wordpress-security-plugin/
-- article: https://www.malcare.com/
-
 ## Automatically log out Idle Users in WordPress
 - plugin: https://wordpress.org/plugins/inactive-logout/
-
-## Monitoring & integrity files
-- article: https://www.wpwhitesecurity.com/wordpress-file-integrity-scanning-site/
-- plugin: https://www.wpwhitesecurity.com/wordpress-plugins/website-file-changes-monitor/
-- article: https://kinsta.com/blog/file-integrity-monitoring/
 
 ## Firewall 
 - plugin: https://www.wpbeginner.com/plugins/best-wordpress-firewall-plugins-compared/
 
+## Change login path
+- https://wordpress.org/plugins/wps-hide-login/
+
 ## Disable XML-RPC in WordPress
 - plugin: https://www.wpbeginner.com/plugins/how-to-disable-xml-rpc-in-wordpress/
-
-## Add Security Questions to WordPress Login Screen [not sure]
-- plugin: https://www.wpbeginner.com/plugins/how-to-add-security-questions-to-wordpress-login-screen/
+- plugin: https://wordpress.org/plugins/sg-security/
 
 ## Restrict the WordPress REST API
 - https://wordpress.org/plugins/disable-json-api/
@@ -56,14 +48,23 @@ return $result;
 });
 ```
 
+## Monitoring
+- plugin: https://sucuri.net/wordpress-security-plugin/
+- article: https://www.malcare.com/
+
+## Monitoring & integrity files
+- article: https://www.wpwhitesecurity.com/wordpress-file-integrity-scanning-site/
+- plugin: https://www.wpwhitesecurity.com/wordpress-plugins/website-file-changes-monitor/
+- article: https://kinsta.com/blog/file-integrity-monitoring/
+
+## Add Security Questions to WordPress Login Screen [not sure]
+- plugin: https://www.wpbeginner.com/plugins/how-to-add-security-questions-to-wordpress-login-screen/
+
 - https://developer.wordpress.org/reference/hooks/rest_authentication_errors/
 - https://developer.wordpress.org/reference/hooks/rest_jsonp_enabled/
 
 ## Keep an audit log
 - plugin: https://wordpress.org/plugins/wp-security-audit-log/
-
-## Change login path
-- https://wordpress.org/plugins/wps-hide-login/
 
 ## Disable PHP File Execution in Certain WordPress Directories
 - article: https://www.wpbeginner.com/wp-tutorials/how-to-disable-php-execution-in-certain-wordpress-directories/
@@ -150,8 +151,6 @@ define( 'WP_DEBUG', true);
 ## Track 404 pageviews
 
 ## Replace default jQuery file
-
-
 
 # Reference
 - https://secupress.me/wp-content/uploads/Beginner-SecuPress-WordPress-Security-Checklist.pdf
