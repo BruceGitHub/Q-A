@@ -27,8 +27,10 @@ Provides reliable methods for backup and recovery.
 ## Firewall 
 - plugin: https://www.wpbeginner.com/plugins/best-wordpress-firewall-plugins-compared/
 
-## Change login path
+## Hide login path
 - https://wordpress.org/plugins/wps-hide-login/
+- https://kinsta.com/blog/wordpress-login-url/
+- https://it.siteground.com/kb/effettuare-login-wordpress/
 
 ## Disable XML-RPC in WordPress
 - plugin: https://www.wpbeginner.com/plugins/how-to-disable-xml-rpc-in-wordpress/
