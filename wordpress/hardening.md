@@ -37,18 +37,7 @@ Provides reliable methods for backup and recovery.
 - plugin: https://wordpress.org/plugins/sg-security/
 
 ## Restrict the WordPress REST API
-- https://wordpress.org/plugins/disable-json-api/
-```php
-add_filter( 'rest_authentication_errors', function( $result ) {
-if ( ! empty( $result ) ) {
-return $result;
-}
-if ( ! is_user_logged_in() ) {
-return new WP_Error( 'rest_not_logged_in', 'You are not currently logged in.', array( 'status' =&amp;amp;gt; 401 ) );
-}
-return $result;
-});
-```
+- plugin: https://wordpress.org/plugins/disable-json-api/
 
 ## Monitoring
 - plugin: https://sucuri.net/wordpress-security-plugin/
@@ -77,11 +66,14 @@ return $result;
 
 ## Disable Directory Indexing and Browsing
 - article: https://www.wpbeginner.com/wp-tutorials/disable-directory-browsing-wordpress/
-- article: https://websitesetup.org/wordpress-security/ (21-c)
 
 ## Implement least privilege permissions
 - article: https://wordpress.org/support/article/roles-and-capabilities/
-- Disable author pages with 0 posts
+
+## Disable author pages with posts / Prevet enumeraiton
+- https://blog.futtta.be/2015/03/03/quick-tip-disabling-wordpress-author-pages/
+- https://www.wpbeginner.com/wp-themes/how-to-remove-author-name-from-wordpress-posts/
+- https://www.wpwhitesecurity.com/wordpress-security/
 
 ## Change security keys
 It’s recommended to replace your old keys and salts from time to time. To get a fresh set of keys and salts you can use this link: Secret Key. You will get a page that looks like this: 
@@ -89,10 +81,11 @@ https://api.wordpress.org/secret-key/1.1/salt/
 
 ## Disallow plugin installations
 By adding a line of code to your wp_config php file
-
-Follow the same method as detailed in the previous section, you need to add the following line:
-
 `define(‘DISALLOW_FILE_MODS’,true);`
+
+## Disable edit file
+By adding a line of code to your wp_config php file
+- `define('DISALLOW_FILE_EDIT', true );`
 
 ## Use SFTP
 - https://kinsta.com/knowledgebase/how-to-use-sftp/
@@ -100,9 +93,6 @@ Follow the same method as detailed in the previous section, you need to add the 
 ## Prevent version disclosure
 - https://gist.github.com/Auke1810/f2a4cf04f2c07c74a393a4b442f22267
 
-## Prevet enumeraiton
-- /?author=<number>.
-- https://www.wpwhitesecurity.com/wordpress-security/
 
 ## Prevent Hotlinking
 - https://kinsta.com/blog/hotlinking/
@@ -116,9 +106,8 @@ Follow the same method as detailed in the previous section, you need to add the 
 - https://wpmudev.com/blog/trackback-pingback-spam/
 
 ## Hide PHP Errors
-```php
-define( 'WP_DEBUG', true);
-```
+By adding a line of code to your wp_config php file
+`define( 'WP_DEBUG', true);`
 
 ## Add HTTP Security Headers
 - https://kinsta.com/blog/wordpress-security/#11-add-latest-http-security-headers
@@ -130,6 +119,7 @@ define( 'WP_DEBUG', true);
 ## Protected login with password
 - https://websitesetup.org/wordpress-security/ (12-d)
 - https://websitesetup.org/wordpress-security/ (18-a)
+- https://websitesetup.org/tools/htaccess-generator/
 
 ## Deny Access to Your .htaccess and wp-config.php Files
 - https://websitesetup.org/wordpress-security/ (21-a)
