@@ -38,6 +38,7 @@ Provides reliable methods for backup and recovery.
 
 ## Restrict the WordPress REST API
 - plugin: https://wordpress.org/plugins/disable-json-api/
+- http://www.wpbeginner.com/wp-tutorials/how-to-disable-json-rest-api-in-wordpress/
 
 ## Monitoring
 - plugin: https://sucuri.net/wordpress-security-plugin/
@@ -71,6 +72,14 @@ Provides reliable methods for backup and recovery.
 - article: https://wordpress.org/support/article/roles-and-capabilities/
 
 ## Disable author pages with posts / Prevet enumeraiton
+'''php
+<?php
+//author.php in theme child
+//Redirect author pages to the homepage
+header("HTTP/1.1 301 Moved Permanently");
+header("Location: /");
+die(); 
+'''
 - https://blog.futtta.be/2015/03/03/quick-tip-disabling-wordpress-author-pages/
 - https://www.wpbeginner.com/wp-themes/how-to-remove-author-name-from-wordpress-posts/
 - https://www.wpwhitesecurity.com/wordpress-security/
@@ -86,6 +95,11 @@ By adding a line of code to your wp_config php file
 ## Disable edit file
 By adding a line of code to your wp_config php file
 - `define('DISALLOW_FILE_EDIT', true );`
+
+## Force SSL for admin
+- https://wordpress.org/documentation/article/administration-over-ssl/
+define('FORCE_SSL_ADMIN', true);
+define('FORCE_SSL_LOGIN', true);
 
 ## Use SFTP
 - https://kinsta.com/knowledgebase/how-to-use-sftp/
@@ -104,6 +118,16 @@ By adding a line of code to your wp_config php file
 
 ## Disable Trackbacks and Pingbacks
 - https://wpmudev.com/blog/trackback-pingback-spam/
+- https://blog.wpsec.com/reducing-the-wordpress-attack-surface/
+  '''php
+  function no_self_ping( &$links ) {
+  $home = get_option( 'home' );
+  foreach ( $links as $l => $link )
+   if ( 0 === strpos( $link, $home ) )
+    unset($links[$l]);
+}
+add_action( 'pre_ping', 'no_self_ping' );
+'''
 
 ## Hide PHP Errors
 By adding a line of code to your wp_config php file
@@ -145,6 +169,10 @@ By adding a line of code to your wp_config php file
 ## Replace default jQuery file
 
 # Reference
+- https://www.malcare.com/blog/wordpress-security-mistakes-fix/
+- https://wordpress.org/documentation/article/administration-over-ssl/
+- https://www.malcare.com/blog/wordpress-hardening/
+- https://blog.wpsec.com/reducing-the-wordpress-attack-surface/
 - https://secupress.me/wp-content/uploads/Beginner-SecuPress-WordPress-Security-Checklist.pdf
 - https://www.keycdn.com/blog/wordpress-security
 - https://99robots.com/wordpress-security-checklist/
