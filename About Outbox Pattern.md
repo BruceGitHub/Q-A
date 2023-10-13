@@ -8,10 +8,15 @@ tags:
  - [two phase commit]
  - [broker]
  - [Transaction Log Tailing Pattern]
+ - [List your self patter]
 published: true
 ---
 
 # Some links:
+
+- 2023 - https://www.linkedin.com/feed/update/urn:li:activity:7111998316132864000/
+- 2023 - https://www.youtube.com/watch?v=cuQ9zuNF1cI
+- Derek Comartin - 
 
 - 2022 - https://pkritiotis.io/outbox-pattern-in-go/
 - https://pkritiotis.io/outbox-pattern-in-go/ [go]
