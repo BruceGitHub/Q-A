@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "All of Value Object"
+title: "Leaky Abstractions"
 date: 2022-04-22
 tags:
  - [Leaky Abstractions]
